@@ -1,0 +1,26 @@
+{
+  "id": "12",
+  "title": {
+    "en": "Competitive Analysis: Japan Missions Websites",
+    "jp": "> *AI翻訳 — レビュー待ち*\n\n競合分析：日本宣教関連ウェブサイト"
+  },
+  "summary": {
+    "en": "A survey of the 12-15 existing digital platforms serving the Japan missions field — from JEMA to UNESCO heritage sites — revealing fragmentation, monolingual silos, and zero AI integration. Sendō fills a gap none of them address.",
+    "jp": "> *AI翻訳 — レビュー待ち*\n\n日本宣教分野に関する12〜15の既存デジタルプラットフォームの調査。JEMAからUNESCO遺産サイトまで、断片化、単言語サイロ、AIゼロ統合が明らかに。宣道はそのいずれも対処していないギャップを埋める。"
+  },
+  "content": {
+    "en": "## The Fragmented Landscape\n\nThe Japan missions web ecosystem consists of approximately 12-15 distinct silos, each serving a narrow audience with minimal cross-referencing:\n\n### Practitioner Platforms\n- **JEMA** (Japan Evangelical Missionary Association): Directory of missionaries, Japan Harvest magazine. English-only. No search, no research tools.\n- **OMF Japan**: Field updates and prayer letters. English-primary with some Japanese.\n- **TEAM Japan**: Similar to OMF — news and recruitment focused.\n\n### Academic Sources\n- **JJRS** (Japanese Journal of Religious Studies, Nanzan): Peer-reviewed scholarship. English-language, paywalled.\n- **Nanzan Institute for Religion and Culture**: Hosts Japan's most important English-language religious studies program. Limited digital resources.\n- **Kirishitan Bunko (キリシタン文庫)** at Sophia University: Primary source archive. Japanese-language, physically located only.\n\n### Diaspora Ministry\n- **JCFN** (Japanese Christian Fellowship Network): Returnee support network. Bilingual but thin on content — primarily event listings and staff directories.\n\n### Heritage and Cultural\n- **UNESCO Hidden Christian Sites**: Official World Heritage page. Multi-language but purely descriptive — no scholarly depth, no ministry connection.\n- **Nagasaki City Tourism**: Visitor information for church sites. Japanese-primary.\n- **Oratio.jp**: Kakure Kirishitan oral tradition preservation. Japanese-only.\n\n### Data and Statistics\n- **Operation Japan** (2019): Most comprehensive statistical snapshot. PDF format, English. Not interactive.\n- **Joshua Project**: Japan country profile. English, donor-facing, limited depth.\n\n### Japanese-Language Christian Media\n- **Christian Shimbun** (クリスチャン新聞): Weekly newspaper. Japanese-only, no archive search.\n- **Inochi no Kotoba** (いのちのことば社): Publisher. Japanese-only.\n\n## Gaps Sendō Fills\n\n| Gap | Current State | Sendō |\n|-----|--------------|-------|\n| Bilingual platform | None truly bilingual | EN/JP toggle on every page |\n| AI-powered search | Zero AI integration anywhere | Ask the Archive RAG |\n| Historical depth + practical tools | Separated by platform | Unified: research + returnee tool + training |\n| Interactive visualizations | None | Timeline, map, network graph |\n| Cross-referencing | Each platform is a silo | 12 reports cite each other; search spans all |\n| Hidden Christian heritage | UNESCO page is shallow | Dedicated immersive /heritage experience |\n| Returnee preparation | JCFN has staff but no public tool | Full questionnaire → personalized 90-day kit |\n\n## Sendō's Positioning\n\nSendō is not competing with JEMA or JCFN — it is complementary infrastructure. It provides what none of them can build alone: an integrated, bilingual, AI-powered research platform that connects 475 years of history to today's returnee pipeline. It is a public good for the field.",
+    "jp": "> *AI翻訳 — レビュー待ち*\n\n## 断片化されたランドスケープ\n\n日本宣教のウェブエコシステムは約12〜15の独立したサイロで構成されており、各々が狭い対象者に向けて最小限のクロスリファレンスで運営されています。\n\n### 実践者向けプラットフォーム\n- **JEMA**（日本福音宣教師団）：宣教師ディレクトリ、Japan Harvest誌。英語のみ。\n- **OMF Japan**：現地報告と祈りのレター。英語中心。\n- **TEAM Japan**：OMFと類似。ニュースと採用重視。\n\n### 学術ソース\n- **JJRS**（南山宗教学研究誌）：査読済み学術論文。英語、有料。\n- **南山宗教文化研究所**：日本最重要の英語圏宗教学プログラム。\n\n### ディアスポラ宣教\n- **JCFN**：帰国者支援ネットワーク。バイリンガルだがコンテンツは薄い。\n\n### 遺産・文化\n- **UNESCO潜伏キリシタン遺産**：公式世界遺産ページ。多言語だが記述的のみ。\n\n## 宣道が埋めるギャップ\n\n| ギャップ | 現状 | 宣道 |\n|---------|------|------|\n| バイリンガルプラットフォーム | 真にバイリンガルなものなし | 全ページEN/JP切替 |\n| AI検索 | AIゼロ | Ask the Archive RAG |\n| 歴史深度＋実用ツール | プラットフォーム別 | 統合：研究＋帰国ツール＋研修 |\n| インタラクティブ可視化 | なし | 年表、地図、ネットワークグラフ |"
+  },
+  "sources": [
+    "JEMA — jema.org",
+    "OMF Japan — omf.org/japan",
+    "JCFN — jcfn.org",
+    "JJRS — Nanzan University",
+    "UNESCO Hidden Christian Sites",
+    "Operation Japan (2019)",
+    "Joshua Project — Japan",
+    "Christian Shimbun — クリスチャン新聞"
+  ],
+  "tags": ["Competitive"]
+}

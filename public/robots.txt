@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sendo.pages.dev/sitemap.xml

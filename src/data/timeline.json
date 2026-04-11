@@ -1,0 +1,1188 @@
+{
+  "events": [
+    {
+      "id": "1549-xavier-kagoshima",
+      "year": 1549,
+      "date": "1549-08-15",
+      "era": "kirishitan",
+      "category": "mission",
+      "title": {
+        "en": "Francis Xavier arrives at Kagoshima",
+        "jp": "フランシスコ・ザビエル、鹿児島に上陸"
+      },
+      "description": {
+        "en": "The Jesuit priest Francis Xavier lands at Kagoshima on the southern tip of Kyushu with two fellow Jesuits and his interpreter Anjirō. This marks the formal beginning of Christian missions in Japan.",
+        "jp": "AI翻訳 — レビュー待ち: イエズス会司祭フランシスコ・ザビエルが二人の同僚と通訳のアンジローを伴い、九州南端の鹿児島に上陸する。日本におけるキリスト教宣教の正式な始まりとなる。"
+      },
+      "location": "Kagoshima, Kyushu"
+    },
+    {
+      "id": "1548-anjiro-baptism",
+      "year": 1548,
+      "date": "1548",
+      "era": "kirishitan",
+      "category": "heritage",
+      "title": {
+        "en": "Anjirō baptized in Goa, becoming the first Japanese Christian",
+        "jp": "アンジロー、ゴアで受洗し日本人初のキリスト教徒となる"
+      },
+      "description": {
+        "en": "Anjirō (Yajirō), a fugitive samurai Xavier met in Malacca, is baptized at the College of St. Paul in Goa. His Portuguese baptismal name is Paulo de Santa Fé. He will return with Xavier the next year as interpreter and guide.",
+        "jp": "AI翻訳 — レビュー待ち: ザビエルがマラッカで出会った逃亡武士アンジロー（弥次郎）が、ゴアの聖パウロ学院で受洗する。洗礼名はパウロ・デ・サンタ・フェ。翌年、ザビエルとともに通訳兼案内人として日本へ戻ることになる。"
+      },
+      "location": "Goa"
+    },
+    {
+      "id": "1551-xavier-departs",
+      "year": 1551,
+      "date": "1551-11",
+      "era": "kirishitan",
+      "category": "mission",
+      "title": {
+        "en": "Xavier departs Japan leaving 1,000 converts",
+        "jp": "ザビエル、約千人の信徒を残し日本を離れる"
+      },
+      "description": {
+        "en": "After two years, Xavier leaves Japan having baptized roughly 1,000 converts. He famously calls the Japanese 'the best people who have yet been discovered.'",
+        "jp": "AI翻訳 — レビュー待ち: 二年の滞在を経て、約千人の信徒を生み出したザビエルが日本を離れる。彼は日本人を「これまで発見された中で最も優れた民族」と称えた。"
+      },
+      "location": "Bungo"
+    },
+    {
+      "id": "1563-omura-sumitada",
+      "year": 1563,
+      "date": "1563",
+      "era": "kirishitan",
+      "category": "mission",
+      "title": {
+        "en": "Ōmura Sumitada becomes first Christian daimyō",
+        "jp": "大村純忠、初のキリシタン大名となる"
+      },
+      "description": {
+        "en": "Ōmura Sumitada of the Nagasaki region is baptized, becoming the first daimyō to embrace Christianity. His domain will become the heartland of the Kirishitan church.",
+        "jp": "AI翻訳 — レビュー待ち: 長崎地方の大村純忠が受洗し、キリスト教に改宗した最初の大名となる。彼の領地は後にキリシタン教会の中心地となる。"
+      },
+      "location": "Ōmura, Nagasaki"
+    },
+    {
+      "id": "1564-takayama-ukon",
+      "year": 1564,
+      "date": "1564",
+      "era": "kirishitan",
+      "category": "heritage",
+      "title": {
+        "en": "Takayama Ukon baptized at age twelve",
+        "jp": "高山右近、十二歳で受洗"
+      },
+      "description": {
+        "en": "The young samurai Takayama Ukon is baptized alongside his father. He will become the most celebrated Christian samurai, later beatified by Pope Francis in 2017.",
+        "jp": "AI翻訳 — レビュー待ち: 少年武士・高山右近が父とともに受洗する。後にもっとも名高いキリシタン武将となり、2017年に教皇フランシスコによって列福される。"
+      },
+      "location": "Takatsuki, Osaka"
+    },
+    {
+      "id": "1571-nagasaki-founded",
+      "year": 1571,
+      "date": "1571",
+      "era": "kirishitan",
+      "category": "mission",
+      "title": {
+        "en": "Port of Nagasaki founded as Christian city",
+        "jp": "長崎港、キリシタン都市として開かれる"
+      },
+      "description": {
+        "en": "Ōmura Sumitada opens Nagasaki as a port for Portuguese trade and Jesuit mission. The city quickly becomes the spiritual and commercial capital of Japanese Christianity.",
+        "jp": "AI翻訳 — レビュー待ち: 大村純忠が長崎をポルトガル貿易とイエズス会宣教の港として開く。やがて日本キリスト教の霊的・商業的中心地となる。"
+      },
+      "location": "Nagasaki"
+    },
+    {
+      "id": "1580-nagasaki-donated",
+      "year": 1580,
+      "date": "1580",
+      "era": "kirishitan",
+      "category": "mission",
+      "title": {
+        "en": "Ōmura donates Nagasaki to the Jesuits; Ōtomo Sōrin baptized in Bungo",
+        "jp": "大村、長崎をイエズス会に寄進。大友宗麟、豊後で受洗"
+      },
+      "description": {
+        "en": "Ōmura Sumitada cedes administrative control of Nagasaki to the Society of Jesus — an act that will later alarm Hideyoshi. Around the same time, Ōtomo Sōrin of Bungo is baptized, creating the largest Christian domain on Kyushu.",
+        "jp": "AI翻訳 — レビュー待ち: 大村純忠が長崎の統治権をイエズス会に譲り渡し、後の秀吉の警戒を招くこととなる。同じ頃、豊後の大友宗麟も受洗し、九州最大のキリシタン領が生まれる。"
+      },
+      "location": "Nagasaki / Bungo"
+    },
+    {
+      "id": "1582-tensho-embassy",
+      "year": 1582,
+      "date": "1582",
+      "era": "kirishitan",
+      "category": "cultural",
+      "title": {
+        "en": "Valignano sends the Tenshō Embassy to Europe",
+        "jp": "ヴァリニャーノ、天正遣欧使節を派遣する"
+      },
+      "description": {
+        "en": "Alessandro Valignano dispatches four young Japanese Christians to meet the Pope and European royalty. By now the mission counts about 150,000 Christians and 200 churches.",
+        "jp": "AI翻訳 — レビュー待ち: アレッサンドロ・ヴァリニャーノが四人の若いキリシタン少年を教皇と欧州王侯のもとへ遣わす。この頃、信徒は約十五万人、教会は二百を数えた。"
+      },
+      "location": "Nagasaki to Rome"
+    },
+    {
+      "id": "1587-bateren-edict",
+      "year": 1587,
+      "date": "1587-07-24",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Hideyoshi issues the Bateren Expulsion Edict",
+        "jp": "秀吉、バテレン追放令を発布する"
+      },
+      "description": {
+        "en": "Toyotomi Hideyoshi abruptly orders all Jesuit missionaries to leave Japan within twenty days, alarmed by Jesuit control of Nagasaki and Christian destruction of Buddhist temples. Enforcement is lax but the edict signals a decisive turn.",
+        "jp": "AI翻訳 — レビュー待ち: 豊臣秀吉は、イエズス会による長崎支配とキリシタンによる寺院破壊に警戒を強め、すべての宣教師に二十日以内の退去を命じる。執行は緩やかだったが、事態の決定的転換を告げるものだった。"
+      },
+      "location": "Hakata"
+    },
+    {
+      "id": "1597-26-martyrs",
+      "year": 1597,
+      "date": "1597-02-05",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Twenty-Six Martyrs crucified at Nagasaki",
+        "jp": "日本二十六聖人、長崎で殉教する"
+      },
+      "description": {
+        "en": "Hideyoshi orders the execution of 26 Christians — 6 Franciscans, 3 Japanese Jesuits, and 17 laypeople — marched from Kyoto and crucified on a Nagasaki hill. The youngest, Louis Ibaraki, is twelve years old. They are canonized in 1862.",
+        "jp": "AI翻訳 — レビュー待ち: 秀吉の命によりフランシスコ会士6名、日本人イエズス会士3名、信徒17名の計26名が京都から長崎まで引き立てられ、丘の上で磔刑に処される。最年少は12歳のルドビコ茨木。1862年に列聖される。"
+      },
+      "location": "Nishizaka, Nagasaki"
+    },
+    {
+      "id": "1612-nationwide-ban",
+      "year": 1612,
+      "date": "1612",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Tokugawa issues nationwide ban on Christianity",
+        "jp": "徳川幕府、全国禁教令を発する"
+      },
+      "description": {
+        "en": "After a 1606 ban in the shogun's direct domains, Tokugawa Ieyasu extends the prohibition nationwide. Systematic persecution of Japanese Christians begins.",
+        "jp": "AI翻訳 — レビュー待ち: 1606年の直轄領における禁令に続き、徳川家康は禁教を全国に及ぼす。日本人キリシタンへの組織的な迫害が始まる。"
+      },
+      "location": "Edo"
+    },
+    {
+      "id": "1614-expulsion-takayama",
+      "year": 1614,
+      "date": "1614",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Missionaries expelled; Takayama Ukon exiled to Manila",
+        "jp": "宣教師追放、高山右近マニラへ流刑"
+      },
+      "description": {
+        "en": "All foreign missionaries are ordered out of Japan. Takayama Ukon, refusing to apostatize, is exiled to Manila where he dies forty days after arrival.",
+        "jp": "AI翻訳 — レビュー待ち: すべての外国人宣教師に日本からの退去が命じられる。棄教を拒んだ高山右近はマニラへ流され、到着から40日後に死去する。"
+      },
+      "location": "Nagasaki / Manila"
+    },
+    {
+      "id": "1622-genna-martyrdom",
+      "year": 1622,
+      "date": "1622-09-10",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Great Genna Martyrdom in Nagasaki",
+        "jp": "元和の大殉教、長崎で起こる"
+      },
+      "description": {
+        "en": "Fifty-five Christians — priests, catechists, and families including children — are executed in a single day on Nishizaka hill in Nagasaki. The event becomes a symbol of Tokugawa resolve to extinguish the faith.",
+        "jp": "AI翻訳 — レビュー待ち: 司祭、伝道師、子どもを含む家族ら55名のキリシタンが長崎・西坂の丘で一日のうちに処刑される。徳川幕府の禁教意志を象徴する出来事となった。"
+      },
+      "location": "Nishizaka, Nagasaki"
+    },
+    {
+      "id": "1629-fumie-instituted",
+      "year": 1629,
+      "date": "1629",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Fumie (stepping-on-images) instituted in Nagasaki",
+        "jp": "長崎で絵踏みが制度化される"
+      },
+      "description": {
+        "en": "Authorities require suspects to tread on bronze or wooden images of Christ and Mary. The fumie becomes an annual New Year ritual used to identify and shame hidden Christians.",
+        "jp": "AI翻訳 — レビュー待ち: 役人は疑わしい者に対してキリストやマリアの銅像や木像を踏ませる。絵踏みは正月の年中行事となり、潜伏キリシタンを識別し辱める手段となる。"
+      },
+      "location": "Nagasaki"
+    },
+    {
+      "id": "1633-ferreira-apostasy",
+      "year": 1633,
+      "date": "1633",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Jesuit provincial Cristóvão Ferreira apostatizes under torture",
+        "jp": "イエズス会管区長クリストヴァン・フェレイラ、拷問の末に棄教する"
+      },
+      "description": {
+        "en": "After six hours of pit-hanging (tsurushi) torture, Jesuit provincial Cristóvão Ferreira recants and adopts the Japanese name Sawano Chūan. His story will inspire Endō Shūsaku's novel Silence.",
+        "jp": "AI翻訳 — レビュー待ち: 穴吊りの拷問を6時間受けた末、イエズス会管区長クリストヴァン・フェレイラが棄教し、沢野忠庵の名を与えられる。この出来事は後に遠藤周作の『沈黙』に着想を与えることとなる。"
+      },
+      "location": "Nagasaki"
+    },
+    {
+      "id": "1637-shimabara-rebellion",
+      "year": 1637,
+      "date": "1637-12",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Shimabara Rebellion erupts under Amakusa Shirō",
+        "jp": "天草四郎を擁し島原の乱勃発"
+      },
+      "description": {
+        "en": "About 37,000 peasants and rōnin rise against crushing taxation and religious persecution in Shimabara and Amakusa, rallying under the sixteen-year-old Amakusa Shirō. They seize the abandoned Hara Castle.",
+        "jp": "AI翻訳 — レビュー待ち: 重税と禁教令に抗議し、島原と天草で約37,000人の農民と浪人が16歳の天草四郎を掲げて蜂起する。彼らは廃城となっていた原城を占拠する。"
+      },
+      "location": "Shimabara / Amakusa"
+    },
+    {
+      "id": "1638-hara-castle-falls",
+      "year": 1638,
+      "date": "1638-04-15",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Hara Castle falls; 37,000 rebels slaughtered",
+        "jp": "原城陥落、三万七千の民が虐殺される"
+      },
+      "description": {
+        "en": "The shogunate deploys 125,000 troops with Dutch naval bombardment assistance from Dejima. After a brutal three-month siege, virtually every defender — men, women, and children — is killed.",
+        "jp": "AI翻訳 — レビュー待ち: 幕府は125,000の兵を動員し、出島からオランダ艦による砲撃の援助も受ける。3か月にわたる凄惨な包囲戦の末、籠城した男女子どもほぼ全員が殺される。"
+      },
+      "location": "Hara Castle, Shimabara"
+    },
+    {
+      "id": "1639-sakoku",
+      "year": 1639,
+      "date": "1639",
+      "era": "kirishitan",
+      "category": "persecution",
+      "title": {
+        "en": "Sakoku closure: Portuguese expelled, Christianity banned on pain of death",
+        "jp": "鎖国令、ポルトガル人追放とキリスト教の死罪禁止"
+      },
+      "description": {
+        "en": "The final sakoku edict expels all Portuguese, bans Christianity under penalty of death, and seals Japan from Western contact. Only the Protestant Dutch, confined to Dejima, retain a trading presence.",
+        "jp": "AI翻訳 — レビュー待ち: 最終的な鎖国令はすべてのポルトガル人を追放し、キリスト教信仰を死罪とし、日本を西洋との接触から遮断する。プロテスタントのオランダ人だけが出島に限定された形で貿易を許される。"
+      },
+      "location": "Nagasaki"
+    },
+    {
+      "id": "1657-kori-kuzure",
+      "year": 1657,
+      "date": "1657",
+      "era": "underground",
+      "category": "persecution",
+      "title": {
+        "en": "Kōri Kuzure: 608 Hidden Christians arrested in Ōmura",
+        "jp": "郡崩れ、大村で608名の潜伏キリシタン摘発"
+      },
+      "description": {
+        "en": "The Kōri incident exposes a large hidden Christian community in Ōmura. Over 600 villagers are arrested; most are executed. Similar 'kuzure' (collapses) will recur into the nineteenth century.",
+        "jp": "AI翻訳 — レビュー待ち: 郡崩れにより、大村の大規模な潜伏キリシタン共同体が発覚する。600名余りの村人が捕らえられ、その多くが処刑される。同様の「崩れ」は19世紀に至るまで繰り返される。"
+      },
+      "location": "Ōmura, Nagasaki"
+    },
+    {
+      "id": "1700-orasho-oral",
+      "year": 1700,
+      "date": "1700",
+      "era": "underground",
+      "category": "heritage",
+      "title": {
+        "en": "Orashō: Latin prayers survive orally in villages",
+        "jp": "オラショ、村々に口伝で残る"
+      },
+      "description": {
+        "en": "Without priests or texts, Kakure Kirishitan transmit the Pater Noster, Ave Maria, Credo and Salve Regina as 'orashō' in a drifted mixture of Latin, Portuguese and Japanese. Lay roles — chōkata, mizukata, oshieyaku — preserve sacramental functions.",
+        "jp": "AI翻訳 — レビュー待ち: 司祭も聖書もない中、隠れキリシタンは主の祈り、アヴェ・マリア、信経、サルヴェ・レジナを「オラショ」として、ラテン語・ポルトガル語・日本語が混ざった形で口伝する。帳方、水方、教役の信徒役職が秘跡機能を保った。"
+      },
+      "location": "Gotō / Ikitsuki"
+    },
+    {
+      "id": "1790-urakami-kuzure",
+      "year": 1790,
+      "date": "1790",
+      "era": "underground",
+      "category": "heritage",
+      "title": {
+        "en": "Maria-Kannon devotion and Urakami 'kuzure' cycles persist",
+        "jp": "マリア観音信仰と浦上「崩れ」が続く"
+      },
+      "description": {
+        "en": "Kakure Kirishitan communities on the Gotō Islands and Sotome coast disguise the Virgin Mary as Buddhist Kannon statues, while Nagasaki authorities crack down through recurring 'kuzure' incidents (1790, 1842, 1856). The faith survives without priests.",
+        "jp": "AI翻訳 — レビュー待ち: 五島列島や外海地方の隠れキリシタンは聖母マリアを観音像に偽装し、長崎の役人たちは度重なる「崩れ」（1790年、1842年、1856年）で取り締まりを続ける。司祭なき信仰はそれでも守られていく。"
+      },
+      "location": "Urakami / Gotō / Sotome"
+    },
+    {
+      "id": "1853-perry-uraga",
+      "year": 1853,
+      "date": "1853-07-08",
+      "era": "bakumatsu",
+      "category": "cultural",
+      "title": {
+        "en": "Commodore Perry arrives at Uraga",
+        "jp": "ペリー提督、浦賀に来航する"
+      },
+      "description": {
+        "en": "Commodore Matthew Perry sails four American warships into Uraga harbor, forcing Japan to end over two centuries of sakoku isolation. The door that missionaries will walk through begins to open.",
+        "jp": "AI翻訳 — レビュー待ち: マシュー・ペリー提督が四隻のアメリカ艦船を率いて浦賀に来航し、二百年以上続いた鎖国を終わらせる。宣教師が再び歩み入る扉が開き始める。"
+      },
+      "location": "Uraga"
+    },
+    {
+      "id": "1859-hepburn-brown-verbeck",
+      "year": 1859,
+      "date": "1859",
+      "era": "bakumatsu",
+      "category": "mission",
+      "title": {
+        "en": "First Protestant missionaries arrive in treaty ports",
+        "jp": "最初のプロテスタント宣教師が開港地に到着する"
+      },
+      "description": {
+        "en": "James C. Hepburn (Presbyterian), Samuel R. Brown and Guido Verbeck (Dutch Reformed) arrive in Yokohama and Nagasaki. Hepburn will develop the romanization system still used for Japanese today.",
+        "jp": "AI翻訳 — レビュー待ち: ジェームズ・C・ヘボン（長老派）、サミュエル・R・ブラウンとグイド・フルベッキ（オランダ改革派）が横浜と長崎に到着する。ヘボンは今日まで使われる日本語ローマ字表記法を作り上げることになる。"
+      },
+      "location": "Yokohama / Nagasaki"
+    },
+    {
+      "id": "1861-nikolai-hakodate",
+      "year": 1861,
+      "date": "1861",
+      "era": "bakumatsu",
+      "category": "mission",
+      "title": {
+        "en": "Russian Orthodox missionary Nikolai arrives in Hakodate",
+        "jp": "ロシア正教宣教師ニコライ、函館に到着する"
+      },
+      "description": {
+        "en": "The young Russian monk Nikolai Kasatkin arrives as chaplain to the Russian consulate in Hakodate. He will translate the New Testament and liturgy into Japanese and build a self-governing Japanese Orthodox Church.",
+        "jp": "AI翻訳 — レビュー待ち: 若きロシアの修道士ニコライ・カサートキンが函館のロシア領事館付司祭として到着する。後に新約聖書と典礼を日本語に訳し、自治的な日本正教会を築き上げることになる。"
+      },
+      "location": "Hakodate"
+    },
+    {
+      "id": "1864-oura-church",
+      "year": 1864,
+      "date": "1864",
+      "era": "bakumatsu",
+      "category": "heritage",
+      "title": {
+        "en": "Ōura Church built in Nagasaki",
+        "jp": "大浦天主堂、長崎に建てられる"
+      },
+      "description": {
+        "en": "Paris Foreign Missions Society priests complete the Ōura Church ostensibly to serve the French community. It will soon witness one of the most dramatic reunions in mission history.",
+        "jp": "AI翻訳 — レビュー待ち: パリ外国宣教会の司祭たちが、表向きはフランス人共同体のための教会として大浦天主堂を完成させる。まもなく宣教史に残る劇的な再会の場となる。"
+      },
+      "location": "Ōura, Nagasaki"
+    },
+    {
+      "id": "1865-discovery",
+      "year": 1865,
+      "date": "1865-03-17",
+      "era": "bakumatsu",
+      "category": "heritage",
+      "title": {
+        "en": "Discovery of the Hidden Christians at Ōura Church",
+        "jp": "大浦天主堂での信徒発見"
+      },
+      "description": {
+        "en": "About fifteen villagers from Urakami approach Ōura Church. Sugimoto Yuri whispers to Father Bernard Petitjean, 'We have the same heart as you. Where is the statue of Santa Maria?' — confirming that Japanese Christianity had survived 250 years underground.",
+        "jp": "AI翻訳 — レビュー待ち: 浦上から来た15人ほどの村人が大浦天主堂を訪れる。杉本ユリがベルナール・プティジャン神父に「われらの心は、あなたさまと同じ。サンタ・マリアの御像はどこにありますか」と囁き、日本のキリスト教信仰が250年にわたり地下で守られてきたことが確認される。"
+      },
+      "location": "Ōura, Nagasaki"
+    },
+    {
+      "id": "1867-urakami-yonban",
+      "year": 1867,
+      "date": "1867",
+      "era": "bakumatsu",
+      "category": "persecution",
+      "title": {
+        "en": "Fourth Urakami Incident: mass arrests and exiles begin",
+        "jp": "浦上四番崩れ、大量逮捕と流罪が始まる"
+      },
+      "description": {
+        "en": "The Meiji government continues the Tokugawa ban. Over 3,000 Christians from Urakami village are arrested and exiled to remote domains across Japan in the 'Urakami Fourth Exile.' An estimated 660 will die in captivity.",
+        "jp": "AI翻訳 — レビュー待ち: 明治新政府は徳川の禁教令を引き継ぐ。浦上村から3,000人以上のキリシタンが捕らえられ、全国各地の遠隔地へ流される「浦上四番崩れ」が始まる。約660名が流配地で命を落とす。"
+      },
+      "location": "Urakami, Nagasaki"
+    },
+    {
+      "id": "1872-yokohama-band",
+      "year": 1872,
+      "date": "1872",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "First Japanese Protestant church founded (Yokohama Band)",
+        "jp": "日本最初のプロテスタント教会設立（横浜バンド）"
+      },
+      "description": {
+        "en": "Students around James Ballagh in Yokohama — including Honda Yōichi and Uemura Masahisa — form the Nihon Kirisuto Kōkai, the first Japanese Protestant church. It becomes the nucleus of what later merges into the Nihon Kirisuto Kyōkai.",
+        "jp": "AI翻訳 — レビュー待ち: 横浜でジェームズ・バラーの周りに集った本多庸一、植村正久ら学生たちが日本基督公会を設立し、日本人による最初のプロテスタント教会となる。後の日本基督教会へと結実する源流となった。"
+      },
+      "location": "Yokohama"
+    },
+    {
+      "id": "1873-religious-freedom",
+      "year": 1873,
+      "date": "1873-02-24",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "Meiji government removes anti-Christian notice boards",
+        "jp": "明治政府、キリシタン禁制の高札を撤去する"
+      },
+      "description": {
+        "en": "Under sustained pressure from the United States, Britain and France, the Meiji government quietly removes the public notice boards banning Christianity. This grants de facto religious toleration after more than 250 years of prohibition.",
+        "jp": "AI翻訳 — レビュー待ち: 米英仏からの圧力を受けて、明治政府はキリシタン禁制の高札を静かに撤去する。250年以上続いた禁教がようやく事実上解除される。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1875-doshisha",
+      "year": 1875,
+      "date": "1875",
+      "era": "meiji",
+      "category": "cultural",
+      "title": {
+        "en": "Niijima Jō founds Dōshisha in Kyoto",
+        "jp": "新島襄、京都に同志社を創立する"
+      },
+      "description": {
+        "en": "Niijima Jō, a Kumamoto Band leader educated in the United States, founds Dōshisha English School in Kyoto (later Dōshisha University). It becomes the most influential Christian academic institution in Meiji Japan.",
+        "jp": "AI翻訳 — レビュー待ち: 米国で学んだ熊本バンドの指導者・新島襄が京都に同志社英学校（後の同志社大学）を創立する。明治日本において最も影響力のあるキリスト教学術機関となる。"
+      },
+      "location": "Kyoto"
+    },
+    {
+      "id": "1876-kumamoto-band",
+      "year": 1876,
+      "date": "1876",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "Kumamoto Band signs Hanaoka Declaration",
+        "jp": "熊本バンド、花岡山で奉教趣意書に署名する"
+      },
+      "description": {
+        "en": "On Hanaoka hill outside Kumamoto, 35 samurai students of American teacher L.L. Janes pledge themselves to Christianizing Japan. They will soon enroll at Dōshisha and form a key stream of Japanese Protestant leadership.",
+        "jp": "AI翻訳 — レビュー待ち: 熊本の花岡山で、米国人教師L・L・ジェーンズのもとにあった武士の学生35名が日本のキリスト教化を誓う「奉教趣意書」に署名する。まもなく同志社に入学し、日本プロテスタント指導層の重要な流れを形づくる。"
+      },
+      "location": "Kumamoto"
+    },
+    {
+      "id": "1877-sapporo-band",
+      "year": 1877,
+      "date": "1877",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "Sapporo Band signs Covenant of Believers",
+        "jp": "札幌バンド、信徒の誓約に署名する"
+      },
+      "description": {
+        "en": "Students of William S. Clark at the Sapporo Agricultural College — including Nitobe Inazō and Uchimura Kanzō — sign a Covenant of Believers. Clark's farewell line 'Boys, be ambitious!' enters Japanese lore.",
+        "jp": "AI翻訳 — レビュー待ち: 札幌農学校でウィリアム・S・クラークの薫陶を受けた新渡戸稲造や内村鑑三らが「イエスを信ずる者の誓約」に署名する。クラークの別れの言葉「少年よ、大志を抱け」は日本の語り草となる。"
+      },
+      "location": "Sapporo"
+    },
+    {
+      "id": "1877-st-paul-rikkyo",
+      "year": 1877,
+      "date": "1877",
+      "era": "meiji",
+      "category": "cultural",
+      "title": {
+        "en": "Rikkyō (St. Paul's) founded by Channing Moore Williams",
+        "jp": "立教学校（セントポール）、チャニング・ウィリアムズにより設立"
+      },
+      "description": {
+        "en": "Episcopal missionary Channing Moore Williams opens Rikkyō Gakkō in Tokyo, later to become Rikkyō University. Mission-founded universities reshape Japanese higher education.",
+        "jp": "AI翻訳 — レビュー待ち: 聖公会宣教師チャニング・ムーア・ウィリアムズが東京に立教学校を開設する。後の立教大学となり、ミッション系大学は日本の高等教育を作り変えていく。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1891-lese-majeste",
+      "year": 1891,
+      "date": "1891-01-09",
+      "era": "meiji",
+      "category": "persecution",
+      "title": {
+        "en": "Uchimura Kanzō's Lèse-Majesté Incident",
+        "jp": "内村鑑三、不敬事件で糾弾される"
+      },
+      "description": {
+        "en": "At the First Higher School in Tokyo, Uchimura Kanzō hesitates to bow before the Imperial Rescript on Education. Forced to resign amid a nationwide press campaign, he is radicalized toward a distinctively Japanese Christianity.",
+        "jp": "AI翻訳 — レビュー待ち: 東京の第一高等中学校で、内村鑑三が教育勅語への最敬礼をためらう。全国的な非難報道の中で辞職に追い込まれ、独自の日本的キリスト教へと思想を深めていく。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1895-yamamuro-salvation",
+      "year": 1895,
+      "date": "1895",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "Yamamuro Gunpei joins the Salvation Army",
+        "jp": "山室軍平、救世軍に加わる"
+      },
+      "description": {
+        "en": "Yamamuro Gunpei, the son of poor farmers, joins the newly arrived Salvation Army in Japan. He becomes its first Japanese commissioner and leads crusades against licensed prostitution, tuberculosis, and urban poverty.",
+        "jp": "AI翻訳 — レビュー待ち: 貧しい農家の出である山室軍平が、来日したばかりの救世軍に加わる。やがて日本人初の司令官となり、公娼制度や結核、都市貧困に立ち向かう運動を率いる。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1900-bushido",
+      "year": 1900,
+      "date": "1900",
+      "era": "meiji",
+      "category": "cultural",
+      "title": {
+        "en": "Nitobe Inazō publishes Bushidō: The Soul of Japan",
+        "jp": "新渡戸稲造『武士道』を英語で刊行"
+      },
+      "description": {
+        "en": "Sapporo Band Quaker Nitobe Inazō publishes Bushidō: The Soul of Japan in English, interpreting samurai ethics for Western readers and framing Japanese virtues in conversation with Christianity.",
+        "jp": "AI翻訳 — レビュー待ち: 札幌バンドのクエーカー教徒・新渡戸稲造が『武士道：日本の魂』を英文で出版する。武士道を西洋の読者に紹介し、日本の徳目をキリスト教との対話の中に位置づける。"
+      },
+      "location": "Tokyo / Philadelphia"
+    },
+    {
+      "id": "1901-mukyokai",
+      "year": 1901,
+      "date": "1901",
+      "era": "meiji",
+      "category": "mission",
+      "title": {
+        "en": "Uchimura Kanzō founds the Mukyōkai Non-Church movement",
+        "jp": "内村鑑三、無教会運動を始める"
+      },
+      "description": {
+        "en": "Uchimura launches Mukyōkai, arguing that denominations, clergy, and sacraments are Western imports unnecessary for authentic Japanese Christianity. Believers gather in small Bible study groups. It becomes the most distinctive Japanese form of Protestantism.",
+        "jp": "AI翻訳 — レビュー待ち: 内村鑑三は、教派・聖職者・秘跡は西洋由来であり日本的キリスト教には不要であるとして無教会運動を始める。信徒は小さな聖書研究会に集い、この運動は日本プロテスタント史上もっとも独創的な形となる。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1907-kwansei-gakuin",
+      "year": 1907,
+      "date": "1907",
+      "era": "meiji",
+      "category": "cultural",
+      "title": {
+        "en": "Christian universities multiply across Japan",
+        "jp": "日本各地にキリスト教系大学が広がる"
+      },
+      "description": {
+        "en": "By the end of the Meiji era, Christian-founded Dōshisha, Rikkyō, Meiji Gakuin, Aoyama Gakuin, and Kwansei Gakuin form a network of elite universities that shape Japanese education, literature, and civil society out of all proportion to the churches' numerical size.",
+        "jp": "AI翻訳 — レビュー待ち: 明治末までに、同志社、立教、明治学院、青山学院、関西学院といったキリスト教系大学が名門校の網を形成し、信徒数に比して不釣り合いなほど日本の教育、文学、市民社会を形づくっていく。"
+      },
+      "location": "Tokyo / Kyoto / Kobe"
+    },
+    {
+      "id": "1912-meiji-total",
+      "year": 1912,
+      "date": "1912",
+      "era": "meiji",
+      "category": "heritage",
+      "title": {
+        "en": "End of Meiji: ~180,000 Japanese Christians",
+        "jp": "明治の終焉、日本のキリスト教徒は約18万人"
+      },
+      "description": {
+        "en": "At the close of the Meiji era, Christians number roughly 170,000–180,000 in a population of 50 million (about 0.35%): 70,000 Catholic, 70–80,000 Protestant, 30,000 Orthodox. Small in number, they wield outsized cultural influence.",
+        "jp": "AI翻訳 — レビュー待ち: 明治の終わりに日本のキリスト教徒は約17〜18万人、人口5,000万のうち0.35%にあたる（カトリック7万、プロテスタント7〜8万、正教3万）。数は小さいが、その文化的影響力は不釣り合いに大きい。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "1912-nikolai-death",
+      "year": 1912,
+      "date": "1912-02-16",
+      "era": "meiji",
+      "category": "heritage",
+      "title": {
+        "en": "Saint Nikolai of Japan dies in Tokyo",
+        "jp": "日本の聖ニコライ、東京で永眠する"
+      },
+      "description": {
+        "en": "Nikolai Kasatkin, founder of the Japanese Orthodox Church, dies after a half-century of ministry. By his death, Japanese Orthodoxy numbers about 30,000 believers. He is canonized in 1970.",
+        "jp": "AI翻訳 — レビュー待ち: 日本正教会を築いたニコライ・カサートキンが、半世紀の奉仕を終えて永眠する。その時日本の正教徒は約3万人に達していた。1970年に列聖される。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1917-kagawa-slums",
+      "year": 1917,
+      "date": "1917",
+      "era": "taisho-showa",
+      "category": "mission",
+      "title": {
+        "en": "Kagawa Toyohiko organizes Kobe slum ministry",
+        "jp": "賀川豊彦、神戸のスラム伝道を組織する"
+      },
+      "description": {
+        "en": "Presbyterian pastor Kagawa Toyohiko, who has lived among the Kobe poor since 1909, publishes his autobiographical novel 'Before the Dawn' and expands labor-union, cooperative and antipoverty work. He becomes the international face of Japanese Social Gospel.",
+        "jp": "AI翻訳 — レビュー待ち: 1909年から神戸の貧民と共に生きてきた長老派牧師・賀川豊彦が自伝的小説『死線を越えて』を刊行し、労働組合運動、協同組合運動、貧困対策を広げる。日本の社会福音の国際的な顔となる。"
+      },
+      "location": "Kobe"
+    },
+    {
+      "id": "1923-kanto-earthquake",
+      "year": 1923,
+      "date": "1923-09-01",
+      "era": "taisho-showa",
+      "category": "mission",
+      "title": {
+        "en": "Churches respond to the Great Kantō Earthquake",
+        "jp": "関東大震災、教会の救援活動"
+      },
+      "description": {
+        "en": "The Great Kantō Earthquake devastates Tokyo and Yokohama, killing over 100,000. Christian organizations including the YMCA, Salvation Army, and Kagawa's networks mobilize relief — an early preview of disaster-response witness.",
+        "jp": "AI翻訳 — レビュー待ち: 関東大震災が東京と横浜を襲い、10万人以上の命を奪う。YMCA、救世軍、賀川豊彦の運動などキリスト教団体が救援活動に立ち上がり、後の災害時奉仕の先駆けとなる。"
+      },
+      "location": "Tokyo / Yokohama"
+    },
+    {
+      "id": "1930-uchimura-death",
+      "year": 1930,
+      "date": "1930-03-28",
+      "era": "taisho-showa",
+      "category": "heritage",
+      "title": {
+        "en": "Uchimura Kanzō dies; Mukyōkai continues without him",
+        "jp": "内村鑑三永眠、無教会は後進に受け継がれる"
+      },
+      "description": {
+        "en": "Uchimura Kanzō dies at 69, leaving behind a generation of Mukyōkai disciples including Yanaihara Tadao and Tsukamoto Toraji. By mid-century the movement numbers an estimated 30,000–50,000 adherents drawn from the educated elite.",
+        "jp": "AI翻訳 — レビュー待ち: 内村鑑三が69歳で世を去り、矢内原忠雄、塚本虎二ら無教会の弟子たちに道を託す。20世紀半ばまでに、この運動は知識階層を中心に3万〜5万人の支持者を数えるに至る。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1937-yanaihara-resigns",
+      "year": 1937,
+      "date": "1937-12",
+      "era": "taisho-showa",
+      "category": "persecution",
+      "title": {
+        "en": "Yanaihara Tadao forced from Tokyo Imperial University",
+        "jp": "矢内原忠雄、東京帝大を追われる"
+      },
+      "description": {
+        "en": "Uchimura disciple and Tokyo Imperial University professor Yanaihara Tadao publicly opposes the invasion of China and is forced to resign. He continues an underground Bible study ministry throughout the war.",
+        "jp": "AI翻訳 — レビュー待ち: 内村鑑三の弟子で東京帝国大学教授の矢内原忠雄が中国侵略を公然と批判し、辞職に追い込まれる。戦時を通じて地下で聖書研究会の奉仕を続ける。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1939-religious-orgs-law",
+      "year": 1939,
+      "date": "1939",
+      "era": "taisho-showa",
+      "category": "persecution",
+      "title": {
+        "en": "Religious Organizations Law places churches under state control",
+        "jp": "宗教団体法、教会を国家の監督下に置く"
+      },
+      "description": {
+        "en": "The Religious Organizations Law requires every religious body to register with the state. Worship, teaching, and finances now fall under government surveillance, preparing the ground for forced denominational mergers.",
+        "jp": "AI翻訳 — レビュー待ち: 宗教団体法により、すべての宗教団体は国家への登録を義務づけられる。礼拝、教義、会計は政府の監視下に置かれ、後の強制合同の素地が整えられる。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1941-kyodan",
+      "year": 1941,
+      "date": "1941-06-24",
+      "era": "taisho-showa",
+      "category": "persecution",
+      "title": {
+        "en": "34 Protestant denominations forced into Nihon Kirisuto Kyōdan",
+        "jp": "34のプロテスタント教派、日本基督教団に強制合同"
+      },
+      "description": {
+        "en": "Under government compulsion, 34 Protestant denominations merge into the Nihon Kirisuto Kyōdan (United Church of Christ in Japan). The merger is not voluntary ecumenism but an instrument of state surveillance.",
+        "jp": "AI翻訳 — レビュー待ち: 政府の強制により34のプロテスタント教派が日本基督教団へと合同される。自発的なエキュメニズムではなく、国家による監視の手段であった。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1942-holiness-arrests",
+      "year": 1942,
+      "date": "1942-06-26",
+      "era": "taisho-showa",
+      "category": "persecution",
+      "title": {
+        "en": "Holiness pastors arrested for premillennial preaching",
+        "jp": "ホーリネス派牧師、前千年王国説で検挙される"
+      },
+      "description": {
+        "en": "About 70 Holiness pastors are arrested under the Peace Preservation Law. Their preaching that Christ — not the Emperor — would return as King of kings is deemed lèse-majesté. Several die in prison.",
+        "jp": "AI翻訳 — レビュー待ち: 治安維持法のもと約70名のホーリネス派牧師が検挙される。天皇ではなくキリストこそ王の王として再臨すると説いた教えが不敬とされた。数名は獄中で命を落とす。"
+      },
+      "location": "Tokyo / across Japan"
+    },
+    {
+      "id": "1945-nagasaki-atomic",
+      "year": 1945,
+      "date": "1945-08-09",
+      "era": "taisho-showa",
+      "category": "persecution",
+      "title": {
+        "en": "Nagasaki atomic bombing destroys Urakami Cathedral",
+        "jp": "長崎への原爆投下、浦上天主堂が破壊される"
+      },
+      "description": {
+        "en": "The second atomic bomb is dropped on Nagasaki, the historic center of Japanese Christianity. The Urakami Cathedral — then the largest cathedral in East Asia — stands 500 meters from the hypocenter. An estimated 8,500 of 12,000 Urakami Catholics are killed.",
+        "jp": "AI翻訳 — レビュー待ち: 二発目の原子爆弾が日本キリスト教の歴史的中心地・長崎に投下される。当時東アジア最大だった浦上天主堂は爆心から500メートルの地に立っており、浦上の12,000人のカトリック信徒のうち推定8,500人が犠牲となる。"
+      },
+      "location": "Urakami, Nagasaki"
+    },
+    {
+      "id": "1945-macarthur",
+      "year": 1945,
+      "date": "1945-09",
+      "era": "postwar",
+      "category": "mission",
+      "title": {
+        "en": "MacArthur arrives; religious freedom restored",
+        "jp": "マッカーサー着任、信教の自由が回復する"
+      },
+      "description": {
+        "en": "General Douglas MacArthur arrives as Supreme Commander of the Allied Powers. He openly favors Christianity and will soon call for 'a thousand missionaries' to fill the spiritual vacuum left by the collapse of State Shinto and emperor worship.",
+        "jp": "AI翻訳 — レビュー待ち: ダグラス・マッカーサー元帥が連合国軍最高司令官として着任する。彼はキリスト教に好意的で、まもなく国家神道と天皇崇拝の崩壊が残した霊的空白を埋めるべく「千人の宣教師」の派遣を呼びかけることになる。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1947-constitution",
+      "year": 1947,
+      "date": "1947-05-03",
+      "era": "postwar",
+      "category": "heritage",
+      "title": {
+        "en": "Postwar Constitution guarantees religious freedom",
+        "jp": "戦後憲法、信教の自由を保障する"
+      },
+      "description": {
+        "en": "Article 20 of Japan's new Constitution guarantees full religious freedom and separation of religion from the state. Several denominations forcibly merged into the Kyōdan withdraw to re-establish their independence.",
+        "jp": "AI翻訳 — レビュー待ち: 日本国憲法第20条がすべての宗教的自由と政教分離を保障する。強制的に日本基督教団へ合同させられていた諸教派のいくつかは脱退して独立を回復する。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1949-bells-nagasaki",
+      "year": 1949,
+      "date": "1949",
+      "era": "postwar",
+      "category": "cultural",
+      "title": {
+        "en": "Nagai Takashi publishes The Bells of Nagasaki",
+        "jp": "永井隆『長崎の鐘』を刊行する"
+      },
+      "description": {
+        "en": "Catholic physician and atomic bomb survivor Nagai Takashi publishes The Bells of Nagasaki, interpreting the destruction of Urakami as a sacrificial offering. The controversial theology comforts and troubles Japanese Catholics in equal measure.",
+        "jp": "AI翻訳 — レビュー待ち: カトリック信徒の医師で被爆者の永井隆が『長崎の鐘』を刊行し、浦上の壊滅を犠牲としての献げ物と捉える。この問題含みの神学は日本のカトリック信徒を慰めると同時に悩ませることとなる。"
+      },
+      "location": "Nagasaki"
+    },
+    {
+      "id": "1949-icu",
+      "year": 1949,
+      "date": "1949",
+      "era": "postwar",
+      "category": "cultural",
+      "title": {
+        "en": "International Christian University founded in Tokyo",
+        "jp": "国際基督教大学、東京に創立される"
+      },
+      "description": {
+        "en": "International Christian University (ICU) opens in Mitaka as a postwar peace-and-reconciliation project backed by Japanese and North American churches. It becomes a model of bilingual liberal arts education in Japan.",
+        "jp": "AI翻訳 — レビュー待ち: 国際基督教大学（ICU）が戦後の平和と和解の事業として、日本と北米の諸教会の支援のもと三鷹に開学する。日本における二言語リベラルアーツ教育の模範となる。"
+      },
+      "location": "Mitaka, Tokyo"
+    },
+    {
+      "id": "1950-kingdom-of-god",
+      "year": 1950,
+      "date": "1950",
+      "era": "postwar",
+      "category": "mission",
+      "title": {
+        "en": "Kagawa's Kingdom of God Movement aims for 10 million",
+        "jp": "賀川豊彦「神の国運動」、一千万人の回心を目指す"
+      },
+      "description": {
+        "en": "Kagawa Toyohiko's postwar Kingdom of God Movement sets a goal of ten million Japanese converts. Though the goal is never reached, the movement shapes a generation of evangelists and feeds the postwar missionary surge.",
+        "jp": "AI翻訳 — レビュー待ち: 賀川豊彦による戦後の神の国運動は一千万人の日本人の回心を目標に掲げる。目標は達成されなかったが、一世代の伝道者を育て、戦後の宣教師の大量来日を後押しする。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1956-graham-tokyo",
+      "year": 1956,
+      "date": "1956",
+      "era": "postwar",
+      "category": "mission",
+      "title": {
+        "en": "Billy Graham leads first Tokyo Crusade",
+        "jp": "ビリー・グラハム、最初の東京クルセードを指導する"
+      },
+      "description": {
+        "en": "Billy Graham holds his first major Tokyo crusade. Crowds are large but lasting church growth is modest — a pattern that will repeat for decades of mass evangelism in Japan.",
+        "jp": "AI翻訳 — レビュー待ち: ビリー・グラハムが東京で最初の大規模クルセードを開催する。会衆は多数集まるものの、恒常的な教会成長は限定的で、以後数十年にわたる日本の大衆伝道の型をなす。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1960-missionary-peak",
+      "year": 1960,
+      "date": "1960",
+      "era": "postwar",
+      "category": "mission",
+      "title": {
+        "en": "Over 2,500 Protestant missionaries serve in Japan",
+        "jp": "プロテスタント宣教師、2,500名を超えて日本で奉仕する"
+      },
+      "description": {
+        "en": "Between 1945 and 1960 an estimated 2,500 Protestant missionaries from over 100 agencies arrive in Japan. Catholics number about 300,000, Protestants about 500,000 — roughly 0.9% of the population.",
+        "jp": "AI翻訳 — レビュー待ち: 1945年から1960年までに、100を超える団体から推定2,500名のプロテスタント宣教師が日本に来日する。カトリックは約30万人、プロテスタントは約50万人で、人口のおよそ0.9％にあたる。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "1966-endo-silence",
+      "year": 1966,
+      "date": "1966",
+      "era": "postwar",
+      "category": "cultural",
+      "title": {
+        "en": "Endō Shūsaku publishes Silence (Chinmoku)",
+        "jp": "遠藤周作『沈黙』を発表する"
+      },
+      "description": {
+        "en": "Catholic novelist Endō Shūsaku publishes Chinmoku (Silence), a novel about seventeenth-century Jesuit missionaries and the apostasy of Cristóvão Ferreira. It becomes the most internationally recognized work of Japanese Christian literature.",
+        "jp": "AI翻訳 — レビュー待ち: カトリック作家・遠藤周作が『沈黙』を発表する。17世紀のイエズス会宣教師とクリストヴァン・フェレイラの棄教を描いたこの小説は、日本のキリスト教文学の中で国際的にもっとも知られる作品となる。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1967-graham-crusade",
+      "year": 1967,
+      "date": "1967",
+      "era": "postwar",
+      "category": "mission",
+      "title": {
+        "en": "Billy Graham's second Tokyo Crusade",
+        "jp": "ビリー・グラハム、第二回東京クルセード"
+      },
+      "description": {
+        "en": "Billy Graham returns for a second major Tokyo crusade, drawing even larger crowds at Budokan and other venues. Despite the spectacle, the long-term impact on church growth remains limited.",
+        "jp": "AI翻訳 — レビュー待ち: ビリー・グラハムが再び来日し、日本武道館などで第二回東京クルセードを開催する。華やかな集会ながら、長期的な教会成長への影響は限定的であった。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1967-kyodan-confession",
+      "year": 1967,
+      "date": "1967-03-26",
+      "era": "postwar",
+      "category": "heritage",
+      "title": {
+        "en": "Kyōdan Confession of Responsibility for the war",
+        "jp": "日本基督教団、戦争責任告白を発表する"
+      },
+      "description": {
+        "en": "The Nihon Kirisuto Kyōdan issues its Confession of Responsibility for the Second World War, acknowledging the church's wartime collaboration with militarism. The statement divides the denomination and triggers decades of internal debate.",
+        "jp": "AI翻訳 — レビュー待ち: 日本基督教団は第二次世界大戦における戦争責任告白を発表し、戦時中の軍国主義への協力を認める。この告白は教団を二分し、数十年に及ぶ内部論議を引き起こす。"
+      },
+      "location": "Tokyo"
+    },
+    {
+      "id": "1970-nikolai-canonized",
+      "year": 1970,
+      "date": "1970-04-10",
+      "era": "postwar",
+      "category": "heritage",
+      "title": {
+        "en": "Nikolai of Japan canonized by Moscow Patriarchate",
+        "jp": "日本の聖ニコライ、モスクワ総主教庁により列聖される"
+      },
+      "description": {
+        "en": "The Moscow Patriarchate canonizes Archbishop Nikolai Kasatkin as 'Equal to the Apostles, Enlightener of Japan.' The Japanese Orthodox Church he founded continues to preserve the Holy Resurrection Cathedral (Nikolai-dō) in Tokyo.",
+        "jp": "AI翻訳 — レビュー待ち: モスクワ総主教庁は大主教ニコライ・カサートキンを「使徒に等しく日本を照らす者」として列聖する。彼が築いた日本正教会は今なお東京のニコライ堂（神田復活大聖堂）を守り続けている。"
+      },
+      "location": "Moscow / Tokyo"
+    },
+    {
+      "id": "1981-john-paul-ii",
+      "year": 1981,
+      "date": "1981-02-23",
+      "era": "postwar",
+      "category": "heritage",
+      "title": {
+        "en": "Pope John Paul II visits Hiroshima, Nagasaki, and Tokyo",
+        "jp": "教皇ヨハネ・パウロ二世、広島・長崎・東京を訪問する"
+      },
+      "description": {
+        "en": "Pope John Paul II becomes the first pontiff to visit Japan, making a historic peace pilgrimage to Hiroshima and Nagasaki. He venerates the Twenty-Six Martyrs at Nishizaka and meets with Hidden Christian descendants.",
+        "jp": "AI翻訳 — レビュー待ち: 教皇ヨハネ・パウロ二世として初めて日本を訪れ、広島と長崎を歴史的な平和巡礼として訪問する。西坂の日本二十六聖人を巡礼し、隠れキリシタンの子孫たちとも会見する。"
+      },
+      "location": "Hiroshima / Nagasaki / Tokyo"
+    },
+    {
+      "id": "1990-plateau",
+      "year": 1990,
+      "date": "1990",
+      "era": "reiwa",
+      "category": "heritage",
+      "title": {
+        "en": "1% barrier becomes a permanent feature",
+        "jp": "「1％の壁」が定着する"
+      },
+      "description": {
+        "en": "Despite 140 years of full access, total Christians plateau around 1–1.5% of Japan's population. Missiologists begin sustained analysis of the 'ie' household system, ancestor veneration, and group identity as barriers to conversion.",
+        "jp": "AI翻訳 — レビュー待ち: 140年にわたる全面的な宣教の機会にもかかわらず、キリスト教徒の比率は人口の1〜1.5％で頭打ちとなる。宣教学者たちは、家制度、先祖崇拝、集団的アイデンティティといった障壁の分析を本格的に始める。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2000-operation-japan",
+      "year": 2000,
+      "date": "2000",
+      "era": "reiwa",
+      "category": "mission",
+      "title": {
+        "en": "Operation Japan prayer atlas launched",
+        "jp": "オペレーション・ジャパン祈りの地図帳が創刊される"
+      },
+      "description": {
+        "en": "The first edition of Operation Japan — a prayer atlas modeled on Operation World — maps every municipality and its churches. Subsequent editions will track the persistent unreached status of most Japanese towns and villages.",
+        "jp": "AI翻訳 — レビュー待ち: 『オペレーション・ワールド』に倣った祈りの地図帳『オペレーション・ジャパン』の初版が刊行され、全市町村と教会を地図化する。以後の版は、日本の多くの町村がなお未伝道である現実を追い続けることになる。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2011-311-earthquake",
+      "year": 2011,
+      "date": "2011-03-11",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "3/11 Earthquake: churches mobilize in Tōhoku",
+        "jp": "東日本大震災、教会が東北で動き出す"
+      },
+      "description": {
+        "en": "A magnitude 9.0 earthquake, tsunami, and the Fukushima nuclear disaster kill nearly 20,000 people. Over 50 Christian relief organizations coordinate through networks such as CRASH Japan. The response is widely regarded as the most significant church mobilization in postwar Japan.",
+        "jp": "AI翻訳 — レビュー待ち: マグニチュード9.0の地震と津波、福島原発事故により約2万人が命を落とす。CRASH Japanなどのネットワークを通じて50を超えるキリスト教救援団体が連携して動き、戦後日本で最も大規模な教会の動員と評価される奉仕となる。"
+      },
+      "location": "Tōhoku"
+    },
+    {
+      "id": "2016-silence-scorsese",
+      "year": 2016,
+      "date": "2016-12",
+      "era": "reiwa",
+      "category": "cultural",
+      "title": {
+        "en": "Scorsese's film Silence revives interest in Kirishitan history",
+        "jp": "スコセッシ監督『沈黙』、キリシタン史への関心を呼び起こす"
+      },
+      "description": {
+        "en": "Martin Scorsese's film adaptation of Endō Shūsaku's Silence premieres, shot partly in Japan. It sparks a global wave of interest in the Kirishitan story, the Hidden Christians, and the theology of apostasy and grace.",
+        "jp": "AI翻訳 — レビュー待ち: マーティン・スコセッシ監督による遠藤周作『沈黙』の映画化が公開され、一部は日本で撮影された。キリシタン史、隠れキリシタン、棄教と恵みの神学への関心が世界的に高まる。"
+      },
+      "location": "Japan / United States"
+    },
+    {
+      "id": "2017-takayama-beatified",
+      "year": 2017,
+      "date": "2017-02-07",
+      "era": "reiwa",
+      "category": "heritage",
+      "title": {
+        "en": "Takayama Ukon beatified by Pope Francis",
+        "jp": "高山右近、教皇フランシスコにより列福される"
+      },
+      "description": {
+        "en": "The Kirishitan samurai Takayama Ukon, who chose exile over apostasy in 1614, is beatified in Osaka before a crowd of 10,000. His beatification reconnects modern Japanese Catholics with their sixteenth-century heritage.",
+        "jp": "AI翻訳 — レビュー待ち: 1614年に棄教より流刑を選んだキリシタン武将・高山右近が、大阪で1万人の信徒を前に列福される。この列福により現代の日本のカトリック信徒は16世紀の遺産と再びつながる。"
+      },
+      "location": "Osaka"
+    },
+    {
+      "id": "2018-unesco",
+      "year": 2018,
+      "date": "2018-06-30",
+      "era": "reiwa",
+      "category": "heritage",
+      "title": {
+        "en": "Hidden Christian Sites inscribed as UNESCO World Heritage",
+        "jp": "長崎の潜伏キリシタン関連遺産、世界遺産に登録される"
+      },
+      "description": {
+        "en": "UNESCO inscribes 'Hidden Christian Sites in the Nagasaki Region' — twelve components including Ōura Church, villages, and Hara Castle ruins — as a World Heritage Site, honoring the extraordinary 250-year underground survival.",
+        "jp": "AI翻訳 — レビュー待ち: ユネスコは大浦天主堂、集落群、原城跡を含む12の構成資産からなる「長崎と天草地方の潜伏キリシタン関連遺産」を世界遺産に登録し、250年にわたる地下での驚くべき信仰の継承を讃える。"
+      },
+      "location": "Nagasaki / Kumamoto"
+    },
+    {
+      "id": "2019-operation-japan-stats",
+      "year": 2019,
+      "date": "2019",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Operation Japan maps ~7,700 Protestant churches",
+        "jp": "オペレーション・ジャパン、約7,700のプロテスタント教会を把握する"
+      },
+      "description": {
+        "en": "The 2019 edition of Operation Japan documents roughly 7,700 Protestant churches with an average Sunday attendance of about 30. An estimated 30–40% of congregations have no full-time pastor, and total Christians hover around 1.5% of the population.",
+        "jp": "AI翻訳 — レビュー待ち: 2019年版『オペレーション・ジャパン』は約7,700のプロテスタント教会を記録し、平日の主日礼拝出席者数は平均約30名とする。30〜40％の教会には専任牧師がおらず、総キリスト教徒は人口の1.5％前後にとどまる。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2019-pope-francis",
+      "year": 2019,
+      "date": "2019-11-23",
+      "era": "reiwa",
+      "category": "heritage",
+      "title": {
+        "en": "Pope Francis visits Nagasaki and Hiroshima",
+        "jp": "教皇フランシスコ、長崎と広島を訪問する"
+      },
+      "description": {
+        "en": "Pope Francis visits Nagasaki and Hiroshima, calling for nuclear abolition and paying tribute to the Twenty-Six Martyrs and atomic-bomb victims. It is the first papal visit in 38 years.",
+        "jp": "AI翻訳 — レビュー待ち: 教皇フランシスコが長崎と広島を訪れ、核兵器の廃絶を訴えるとともに日本二十六聖人と原爆犠牲者を追悼する。38年ぶりの教皇訪日となる。"
+      },
+      "location": "Nagasaki / Hiroshima / Tokyo"
+    },
+    {
+      "id": "2020-covid",
+      "year": 2020,
+      "date": "2020",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "COVID-19 accelerates digital worship and rural decline",
+        "jp": "COVID-19、オンライン礼拝と地方衰退を加速させる"
+      },
+      "description": {
+        "en": "The pandemic pushes Japanese churches toward online worship. A few congregations report new seekers through digital access, while small rural churches dependent on weekly offerings face severe financial strain.",
+        "jp": "AI翻訳 — レビュー待ち: コロナ禍は日本の教会をオンライン礼拝へと押しやる。デジタルを通じて新しい求道者が与えられる教会もある一方、毎週の献金に依存してきた小さな地方教会は深刻な財政難に直面する。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2022-abe-unification",
+      "year": 2022,
+      "date": "2022-07-08",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Abe assassination exposes Unification Church scandal",
+        "jp": "安倍晋三暗殺、統一教会問題が表面化する"
+      },
+      "description": {
+        "en": "Former Prime Minister Abe Shinzō is assassinated by a gunman citing grievances against the Unification Church. The ensuing scandal over ties between politicians and the church dominates Japanese media for months, deepening suspicion of all religious movements — including mainstream Christian churches.",
+        "jp": "AI翻訳 — レビュー待ち: 統一教会への恨みを動機とする銃撃犯により、元首相・安倍晋三が暗殺される。その後明らかになった政治家と統一教会の関係をめぐる問題は数か月にわたって日本のメディアを席巻し、主流のキリスト教会を含むあらゆる宗教運動への不信感を深めることとなる。"
+      },
+      "location": "Nara"
+    },
+    {
+      "id": "2023-ministry-registry",
+      "year": 2023,
+      "date": "2023",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Japan's registry shows 300,921 Christians (0.73%)",
+        "jp": "文化庁統計、キリスト教徒を30万921人（0.73％）と報告する"
+      },
+      "description": {
+        "en": "Japan's Ministry of Culture official religious registry lists 300,921 Christians — about 0.73% of the population. Global databases estimate the true figure at roughly 1.9 million (1.5%), but by every measure the church is aging and shrinking.",
+        "jp": "AI翻訳 — レビュー待ち: 文化庁の宗教統計はキリスト教徒を30万921人、およそ人口の0.73％と記録する。世界的データベースは実数を約190万人（1.5％）と推計するが、いずれの指標でも日本の教会は高齢化と縮小が進んでいる。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2024-korean-missionaries",
+      "year": 2024,
+      "date": "2024",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Korean missionaries become Japan's largest foreign sending force",
+        "jp": "韓国人宣教師、日本の最大の外国人宣教師集団となる"
+      },
+      "description": {
+        "en": "An estimated 700–1,000 Korean missionaries serve in Japan, making Korea the largest single source of foreign missionaries in the country — a striking historical reversal given Japan's colonial occupation of Korea (1910–1945).",
+        "jp": "AI翻訳 — レビュー待ち: 日本で奉仕する韓国人宣教師は推定700〜1,000名に上り、韓国は日本への外国人宣教師を送る最大の国となる。日本による朝鮮植民地支配（1910〜1945）を考えれば、これは劇的な歴史の逆転である。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2024-church-closures",
+      "year": 2024,
+      "date": "2024",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Over 100 churches close every year; 35% drop in registered Christians",
+        "jp": "毎年100以上の教会が閉鎖、登録信徒は35％減少"
+      },
+      "description": {
+        "en": "More than 100 Japanese churches close each year as elderly pastors retire or die and small congregations dissolve. Government figures show registered Christians fell by about 35% between 2019 and 2024, reflecting both real decline and registration changes.",
+        "jp": "AI翻訳 — レビュー待ち: 高齢の牧師が引退や召天を迎え、小規模な会衆が解散するなか、日本の教会は毎年100以上が閉鎖される。政府統計によれば2019年から2024年にかけて登録キリスト教徒は約35％減少しており、実質的な衰退と登録制度の変化の双方を反映している。"
+      },
+      "location": "Japan"
+    },
+    {
+      "id": "2026-sendo-platform",
+      "year": 2026,
+      "date": "2026",
+      "era": "reiwa",
+      "category": "contemporary",
+      "title": {
+        "en": "Sendō 宣道 platform launches as a bilingual research hub",
+        "jp": "宣道（Sendō）、日英バイリンガルの研究プラットフォームとして公開される"
+      },
+      "description": {
+        "en": "Sendō 宣道 opens as an AI-powered bilingual research platform connecting 475 years of Japan missions history — from Xavier to the 1% barrier — to today's ministry among Japanese students and professionals abroad.",
+        "jp": "AI翻訳 — レビュー待ち: 宣道（Sendō）はAIを活用した日英バイリンガルの研究プラットフォームとして公開され、ザビエルから「1％の壁」に至る475年の日本宣教史を、海外で学び働く日本人への現代の宣教とつなげる。"
+      },
+      "location": "Global"
+    }
+  ]
+}

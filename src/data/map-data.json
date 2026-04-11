@@ -1,0 +1,16 @@
+{
+  "stations": [
+    { "id": "kagoshima", "name": { "en": "Kagoshima", "jp": "鹿児島" }, "lat": 31.5966, "lng": 130.5571, "year": 1549, "era": "kirishitan", "note": { "en": "Francis Xavier's landing point, 1549", "jp": "1549年、ザビエル上陸の地" } },
+    { "id": "nagasaki", "name": { "en": "Nagasaki", "jp": "長崎" }, "lat": 32.7503, "lng": 129.8777, "year": 1571, "era": "kirishitan", "note": { "en": "Jesuit trading port; 26 Martyrs 1597; atomic bombing 1945", "jp": "イエズス会の貿易港。1597年二十六聖人殉教。1945年原爆投下。" } },
+    { "id": "kyoto", "name": { "en": "Kyoto (Miyako)", "jp": "京都" }, "lat": 35.0116, "lng": 135.7681, "year": 1551, "era": "kirishitan", "note": { "en": "Xavier visited 1551; Dōshisha founded 1875", "jp": "1551年ザビエル訪問。1875年同志社創立。" } },
+    { "id": "yamaguchi", "name": { "en": "Yamaguchi", "jp": "山口" }, "lat": 34.1858, "lng": 131.4706, "year": 1551, "era": "kirishitan", "note": { "en": "Xavier's Yamaguchi mission, 500 converts in one month", "jp": "ザビエル山口宣教、1ヶ月で500人改宗。" } },
+    { "id": "amakusa", "name": { "en": "Amakusa", "jp": "天草" }, "lat": 32.4833, "lng": 130.1833, "year": 1637, "era": "underground", "note": { "en": "Shimabara Rebellion 1637-38; Hidden Christian villages", "jp": "1637-38年島原の乱。隠れキリシタンの里。" } },
+    { "id": "sotome", "name": { "en": "Sotome", "jp": "外海" }, "lat": 32.8500, "lng": 129.7167, "year": 1640, "era": "underground", "note": { "en": "Primary Kakure Kirishitan region", "jp": "隠れキリシタンの中心地。" } },
+    { "id": "yokohama", "name": { "en": "Yokohama", "jp": "横浜" }, "lat": 35.4437, "lng": 139.6380, "year": 1859, "era": "bakumatsu", "note": { "en": "Hepburn arrives 1859; Yokohama Band forms", "jp": "1859年ヘボン着任。横浜バンド結成。" } },
+    { "id": "sapporo", "name": { "en": "Sapporo", "jp": "札幌" }, "lat": 43.0642, "lng": 141.3469, "year": 1876, "era": "meiji", "note": { "en": "William Clark and the Sapporo Band, 1876", "jp": "1876年クラーク博士と札幌バンド。" } },
+    { "id": "tokyo", "name": { "en": "Tokyo (Edo)", "jp": "東京（江戸）" }, "lat": 35.6762, "lng": 139.6503, "year": 1872, "era": "meiji", "note": { "en": "Post-1873 religious freedom hub; Uchimura, Nitobe", "jp": "1873年以降の宣教の中心地。内村、新渡戸。" } },
+    { "id": "kobe", "name": { "en": "Kobe", "jp": "神戸" }, "lat": 34.6901, "lng": 135.1955, "year": 1909, "era": "meiji", "note": { "en": "Kagawa Toyohiko's Shinkawa slum ministry", "jp": "賀川豊彦の新川スラム伝道。" } },
+    { "id": "osaka", "name": { "en": "Osaka", "jp": "大阪" }, "lat": 34.6937, "lng": 135.5023, "year": 1872, "era": "meiji", "note": { "en": "Early Meiji Protestant mission; contemporary 0.4% Christian", "jp": "明治初期のプロテスタント宣教地。現代は0.4%がキリスト教徒。" } },
+    { "id": "hiroshima", "name": { "en": "Hiroshima", "jp": "広島" }, "lat": 34.3853, "lng": 132.4553, "year": 1945, "era": "postwar", "note": { "en": "Atomic bombing August 6, 1945", "jp": "1945年8月6日原爆投下。" } }
+  ]
+}
