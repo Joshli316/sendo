@@ -125,7 +125,7 @@ function showEmptyState(lang: string): void {
   mapEl.innerHTML = `
     <div style="display:flex; align-items:center; justify-content:center; height:100%; padding:48px; text-align:center;">
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 12px;">${lang === 'en' ? 'Map data coming soon' : '地図データは準備中'}</h3>
+        <h3 style="color: var(--accent-vermillion); margin-bottom: 12px;">${lang === 'en' ? 'Map data coming soon' : '地図データは準備中'}</h3>
         <p style="color: var(--text-secondary); font-size: 0.9375rem; max-width: 420px;">
           ${lang === 'en'
             ? 'A full spatial-temporal database of churches, missions, and institutions across Japan (1549-present) is being prepared from research reports.'

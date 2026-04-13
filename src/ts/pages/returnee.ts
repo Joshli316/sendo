@@ -171,29 +171,29 @@ function renderReturnKit(content: HTMLElement): void {
       <h2>${lang === 'en' ? `Your Return Kit — ${formData.city}` : `あなたの帰国キット — ${CITIES_JP[formData.city] || formData.city}`}</h2>
 
       <div class="card" style="margin-bottom: 24px;">
-        <h3 style="color: var(--accent-gold);">${lang === 'en' ? '90-Day Spiritual Survival Plan' : '90日間の信仰サバイバル計画'}</h3>
+        <h3 style="color: var(--accent-vermillion);">${lang === 'en' ? '90-Day Spiritual Survival Plan' : '90日間の信仰サバイバル計画'}</h3>
         ${generatePlan(formData, lang)}
       </div>
 
       <div class="card" style="margin-bottom: 24px;">
-        <h3 style="color: var(--accent-gold);">${lang === 'en' ? 'Prefecture-Specific Guidance' : '都道府県別ガイダンス'}</h3>
+        <h3 style="color: var(--accent-vermillion);">${lang === 'en' ? 'Prefecture-Specific Guidance' : '都道府県別ガイダンス'}</h3>
         ${generateCityGuide(formData, lang)}
       </div>
 
       ${formData.concerns.includes('family') ? `
       <div class="card" style="margin-bottom: 24px;">
-        <h3 style="color: var(--accent-gold);">${lang === 'en' ? 'Family Conversation Scripts' : '家族との会話ガイド'}</h3>
+        <h3 style="color: var(--accent-vermillion);">${lang === 'en' ? 'Family Conversation Scripts' : '家族との会話ガイド'}</h3>
         ${generateFamilyScripts(lang)}
       </div>
       ` : ''}
 
       <div class="card" style="margin-bottom: 24px;">
-        <h3 style="color: var(--accent-gold);">${lang === 'en' ? 'Resources' : 'リソース'}</h3>
+        <h3 style="color: var(--accent-vermillion);">${lang === 'en' ? 'Resources' : 'リソース'}</h3>
         ${generateResources(formData, lang)}
       </div>
 
-      <div class="card" style="margin-bottom: 24px; border-color: var(--accent-gold);">
-        <h3 style="color: var(--accent-gold);">${t('returnee.connect')}</h3>
+      <div class="card" style="margin-bottom: 24px; border-color: var(--accent-vermillion);">
+        <h3 style="color: var(--accent-vermillion);">${t('returnee.connect')}</h3>
         <p style="color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 16px;">${t('returnee.connect.desc')}</p>
         <div class="form-group">
           <input class="form-input" type="text" placeholder="${lang === 'en' ? 'Your name' : 'お名前'}">
@@ -228,8 +228,17 @@ function wireReturnKitButtons(lang: string): void {
   });
 
   document.getElementById('connect-btn')?.addEventListener('click', () => {
+    const nameInput = document.querySelector('#return-kit .form-input[type="text"]') as HTMLInputElement;
+    const emailInput = document.querySelector('#return-kit .form-input[type="email"]') as HTMLInputElement;
+    if (!nameInput?.value?.trim() || !emailInput?.value?.trim()) {
+      const btn = document.getElementById('connect-btn')!;
+      btn.textContent = lang === 'en' ? 'Please fill in your name and contact' : '名前と連絡先を入力してください';
+      btn.style.color = 'var(--warning)';
+      setTimeout(() => { btn.textContent = lang === 'en' ? 'Connect me to JCFN' : 'JCFNにつないでほしい'; btn.style.color = ''; }, 2500);
+      return;
+    }
     const btn = document.getElementById('connect-btn')!;
-    btn.textContent = lang === 'en' ? 'Request Sent!' : '送信しました！';
+    btn.textContent = lang === 'en' ? 'Saved — visit jcfn.org to connect directly' : '保存しました — jcfn.org で直接つながれます';
     btn.style.background = 'var(--success)';
     btn.style.borderColor = 'var(--success)';
     (btn as HTMLButtonElement).disabled = true;
@@ -246,7 +255,7 @@ function wireReturnKitButtons(lang: string): void {
 
 function planCard(title: string, body: string): string {
   return `<div style="padding: 16px; background: var(--bg-tertiary); border-radius: 2px;">
-    <h4 style="font-family: var(--font-mono); color: var(--accent-gold);">${title}</h4>
+    <h4 style="font-family: var(--font-mono); color: var(--accent-vermillion);">${title}</h4>
     <p style="font-size: 0.875rem; color: var(--text-secondary);">${body}</p>
   </div>`;
 }

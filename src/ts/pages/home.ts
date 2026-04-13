@@ -1,14 +1,11 @@
-import { t, getLang } from '../i18n';
+import { t } from '../i18n';
 
 export function renderHome(): void {
   const app = document.getElementById('app')!;
-  const lang = getLang();
 
   app.innerHTML = `
-    <!-- HERO — asymmetric split. Vertical Japanese title on the left, question + answer on the right. Not a centered h1+subtitle+CTA block. -->
     <section class="sendo-hero">
       <div class="sendo-hero-grid">
-        <!-- Left column: giant vertical Japanese title + enso + era marker strip -->
         <div class="sendo-hero-left">
           <div class="sendo-era-rail" aria-hidden="true">
             <span class="sendo-era-mark">1549</span>
@@ -28,7 +25,6 @@ export function renderHome(): void {
           </div>
         </div>
 
-        <!-- Right column: question (dominant), answer, intro paragraph, stats bar, CTAs -->
         <div class="sendo-hero-right">
           <div class="sendo-eyebrow" aria-hidden="true">
             <span class="sendo-torii"></span>
@@ -65,7 +61,6 @@ export function renderHome(): void {
       </div>
     </section>
 
-    <!-- SUMI-E DIVIDER -->
     <div class="sendo-sumi-divider" aria-hidden="true">
       <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0,55 C180,20 360,72 520,48 C680,24 820,66 980,42 C1100,22 1160,48 1200,40" stroke="rgba(244,234,213,0.14)" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -73,7 +68,6 @@ export function renderHome(): void {
       </svg>
     </div>
 
-    <!-- FOUR FEATURE BLOCKS — broken grid (3 small + 1 wide featured) -->
     <section class="sendo-features">
       <div class="sendo-features-head">
         <span class="sendo-eyebrow-sm" data-i18n="features.eyebrow">${t('features.eyebrow')}</span>
@@ -86,7 +80,6 @@ export function renderHome(): void {
       </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="sendo-footer">
       <div class="sendo-footer-inner">
         <div class="sendo-footer-brand">
@@ -107,7 +100,6 @@ export function renderHome(): void {
   `;
 
   injectHomeStyles();
-  void lang;
 }
 
 function renderFeature(key: 'research' | 'tools' | 'heritage' | 'personas', href: string, letter: string, meta: string, featured: boolean): string {
@@ -468,33 +460,6 @@ function injectHomeStyles(): void {
       font-size: 20px;
       color: var(--text-tertiary);
       transition: transform var(--transition), color var(--transition);
-    }
-
-    /* FC SECTION */
-    .sendo-fc-section {
-      max-width: 1440px;
-      margin: 0 auto;
-      padding: 64px 32px;
-      border-top: 1px solid var(--border-default);
-    }
-    .sendo-fc-inner {
-      display: grid;
-      grid-template-columns: 48px 1fr;
-      gap: 32px;
-      max-width: 720px;
-    }
-    .sendo-fc-rail {
-      width: 2px;
-      background: var(--accent-vermillion);
-      justify-self: end;
-      height: 100%;
-    }
-    .sendo-fc-mission {
-      font-family: var(--font-display);
-      font-size: 20px;
-      line-height: 1.55;
-      color: var(--text-primary);
-      margin: 12px 0 24px;
     }
 
     /* FOOTER */

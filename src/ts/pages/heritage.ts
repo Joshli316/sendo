@@ -142,7 +142,7 @@ export function renderHeritage(): void {
             : '隠れキリシタンの遺産は博物館の遺物ではありません。すべての可視的制度を剥ぎ取られ、愛だけによって保たれた信仰はどのような姿を取るのか ー これは今も問われ続ける問いです。'}
         </p>
         <p style="font-size: 0.875rem; color: var(--text-tertiary);">
-          ${lang === 'en' ? 'More: UNESCO sites map, Endō Shūsaku reader, and the "Test of Faith" interactive experience — coming in Phase 2.' : '続き: UNESCO遺産マップ、遠藤周作リーダー、「信仰の試練」インタラクティブ体験 — フェーズ2で公開予定。'}
+          ${lang === 'en' ? 'Explore more: the animated spread map, Endō Shūsaku\'s persona, and the missionary network graph.' : '続き: 動く伝播マップ、遠藤周作のペルソナ、宣教師ネットワーク・グラフ。'}
         </p>
       </section>
     </div>

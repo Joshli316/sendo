@@ -1,5 +1,5 @@
 import { getLang } from './i18n';
-import { reports, type Report } from './data-loader';
+import { loadAllReports, type Report } from './data-loader';
 
 interface SearchResult {
   id: string;
@@ -11,9 +11,9 @@ interface SearchResult {
 
 let searchIndex: Report[] = [];
 
-function loadIndex(): void {
+async function loadIndex(): Promise<void> {
   if (searchIndex.length > 0) return;
-  searchIndex = reports;
+  searchIndex = await loadAllReports();
 }
 
 function search(query: string): SearchResult[] {
@@ -32,8 +32,7 @@ function search(query: string): SearchResult[] {
     if (title.includes(q) || summary.includes(q) || content.includes(q)) {
       // Find excerpt around the match
       let excerpt = report.summary[lang];
-      const contentLower = content;
-      const idx = contentLower.indexOf(q);
+      const idx = content.indexOf(q);
       if (idx >= 0) {
         const start = Math.max(0, idx - 60);
         const end = Math.min(content.length, idx + q.length + 60);
@@ -52,16 +51,16 @@ function search(query: string): SearchResult[] {
 
   // Static pages/tools
   const staticPages: { title: string; href: string; keywords: string[] }[] = [
-    { title: 'Timeline', href: '#/research/timeline', keywords: ['timeline', 'history', 'chronology', '时间线', '历史'] },
-    { title: 'Ask the Archive', href: '#/tools/ask', keywords: ['ask', 'archive', 'ai', 'search', 'question', '问', '档案'] },
-    { title: 'Returnee Tool', href: '#/tools/returnee', keywords: ['returnee', 'return', 'china', 'kit', '回国', '准备'] },
-    { title: 'Training', href: '#/tools/training', keywords: ['training', 'volunteer', 'module', '培训', '志愿者'] },
-    { title: 'Conversations', href: '#/tools/conversations', keywords: ['conversation', 'persona', 'historical', 'chat', '对话', '历史人物'] },
-    { title: 'Retention Calculator', href: '#/tools/retention', keywords: ['retention', 'calculator', 'faith', '保留', '计算'] },
-    { title: 'Gap Tracker', href: '#/research/gaps', keywords: ['gap', 'research', 'tracker', '缺口', '研究'] },
-    { title: 'Comparator', href: '#/research/comparator', keywords: ['comparator', 'bilingual', 'compare', '比较', '双语'] },
-    { title: 'Map', href: '#/research/map', keywords: ['map', 'spread', 'geography', '地图', '传播'] },
-    { title: 'Network', href: '#/research/network', keywords: ['network', 'graph', 'connections', '网络', '关系'] },
+    { title: 'Timeline', href: '#/research/timeline', keywords: ['timeline', 'history', 'chronology', '年表', '歴史'] },
+    { title: 'Ask the Archive', href: '#/tools/ask', keywords: ['ask', 'archive', 'ai', 'search', 'question', '質問', 'アーカイブ'] },
+    { title: 'Returnee Tool', href: '#/tools/returnee', keywords: ['returnee', 'return', 'japan', 'kit', '帰国', '準備'] },
+    { title: 'Training', href: '#/tools/training', keywords: ['training', 'volunteer', 'module', '研修', 'ボランティア'] },
+    { title: 'Conversations', href: '#/personas', keywords: ['conversation', 'persona', 'historical', 'chat', '対話', '歴史人物'] },
+    { title: 'Retention Calculator', href: '#/tools/retention', keywords: ['retention', 'calculator', 'faith', '信仰継続', '計算'] },
+    { title: 'Gap Tracker', href: '#/research/gaps', keywords: ['gap', 'research', 'tracker', 'ギャップ', '研究'] },
+    { title: 'Comparator', href: '#/research/comparator', keywords: ['comparator', 'bilingual', 'compare', '比較', 'バイリンガル'] },
+    { title: 'Map', href: '#/research/map', keywords: ['map', 'spread', 'geography', '地図', '伝播'] },
+    { title: 'Network', href: '#/research/network', keywords: ['network', 'graph', 'connections', 'ネットワーク', '関係'] },
   ];
 
   for (const page of staticPages) {
@@ -96,22 +95,58 @@ export function initSearch(): void {
   searchTrigger?.addEventListener('click', () => {
     modal.classList.add('open');
     input.focus();
-    loadIndex();
+    void loadIndex();
   });
 
   let debounceTimer: ReturnType<typeof setTimeout>;
   input.addEventListener('input', () => {
     clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => performSearch(), 150);
+    debounceTimer = setTimeout(() => void performSearch(), 150);
   });
 
-  function performSearch(): void {
+  function navigateToResult(href: string): void {
+    location.hash = href.replace('#', '');
+    modal.classList.remove('open');
+    input.value = '';
+    resultsContainer!.innerHTML = '';
+  }
+
+  // Keyboard navigation for search results
+  input.addEventListener('keydown', (e) => {
+    if (!resultsContainer) return;
+    const items = resultsContainer.querySelectorAll('.search-result');
+    if (items.length === 0) return;
+
+    const active = resultsContainer.querySelector('.search-result--active');
+    let idx = active ? Array.from(items).indexOf(active) : -1;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      active?.classList.remove('search-result--active');
+      idx = idx < items.length - 1 ? idx + 1 : 0;
+      items[idx].classList.add('search-result--active');
+      items[idx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      active?.classList.remove('search-result--active');
+      idx = idx > 0 ? idx - 1 : items.length - 1;
+      items[idx].classList.add('search-result--active');
+      items[idx].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && active) {
+      e.preventDefault();
+      const href = (active as HTMLElement).dataset.href;
+      if (href) navigateToResult(href);
+    }
+  });
+
+  async function performSearch(): Promise<void> {
     if (!resultsContainer) return;
     const query = input.value.trim();
     if (query.length < 2) {
       resultsContainer.innerHTML = '';
       return;
     }
+    await loadIndex();
     const results = search(query);
     if (results.length === 0) {
       resultsContainer.innerHTML = `<div class="search-hint">No results found</div>`;
@@ -127,14 +162,7 @@ export function initSearch(): void {
 
   resultsContainer.addEventListener('click', (e) => {
     const result = (e.target as HTMLElement).closest('.search-result') as HTMLElement;
-    if (result) {
-      const href = result.dataset.href;
-      if (href) {
-        location.hash = href.replace('#', '');
-        modal.classList.remove('open');
-        input.value = '';
-        resultsContainer.innerHTML = '';
-      }
-    }
+    const href = result?.dataset.href;
+    if (href) navigateToResult(href);
   });
 }

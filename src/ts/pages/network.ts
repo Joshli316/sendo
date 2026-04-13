@@ -395,8 +395,12 @@ function initForceGraph(data: NetworkData): void {
   // Filters
   document.querySelectorAll('.network-controls .filter-tab').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.network-controls .filter-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.network-controls .filter-tab').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       requestRedraw();
     });
   });
@@ -413,7 +417,7 @@ function showBioCard(node: NetworkNode): void {
       <button onclick="document.getElementById('bio-card').classList.remove('open')" style="background: none; border: none; color: var(--text-tertiary); cursor: pointer; font-size: 1.25rem;">×</button>
     </div>
     ${node.name.en !== node.name.jp ? `<p style="font-size: 0.8125rem; color: var(--text-tertiary); margin: 4px 0;">${lang === 'en' ? node.name.jp : node.name.en}</p>` : ''}
-    ${node.dates ? `<p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold); margin: 4px 0;">${node.dates}</p>` : ''}
+    ${node.dates ? `<p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-vermillion); margin: 4px 0;">${node.dates}</p>` : ''}
     ${node.role ? `<p style="font-size: 0.875rem; color: var(--text-secondary); margin: 8px 0;">${node.role[lang]}</p>` : ''}
     ${node.denomination ? `<span class="tag">${node.denomination}</span>` : ''}
     <span class="tag">${node.era}</span>
@@ -451,7 +455,7 @@ function renderMobileList(data: NetworkData, lang: string): void {
               <h3 style="font-size: 1rem; margin: 0 0 4px;">${node.name[lang as 'en' | 'jp']}</h3>
               ${node.name.en !== node.name.jp ? `<p style="font-size: 0.75rem; color: var(--text-tertiary); margin: 0;">${lang === 'en' ? node.name.jp : node.name.en}</p>` : ''}
             </div>
-            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold);">${node.dates || ''}</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-vermillion);">${node.dates || ''}</span>
           </div>
           ${node.role ? `<p style="font-size: 0.8125rem; color: var(--text-secondary); margin: 8px 0 4px;">${node.role[lang as 'en' | 'jp']}</p>` : ''}
           <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px;">
@@ -485,8 +489,12 @@ function renderMobileList(data: NetworkData, lang: string): void {
   // Wire up filter tabs for mobile
   document.querySelectorAll('.network-controls .filter-tab').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.network-controls .filter-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.network-controls .filter-tab').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       const filter = (btn as HTMLElement).dataset.filter || 'all';
       const filtered = filter === 'all' ? sorted : sorted.filter(n => n.type === filter);
       renderList(filtered);

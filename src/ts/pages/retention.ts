@@ -162,7 +162,7 @@ function showResult(): void {
           <!-- Value arc -->
           <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="${risk.level === 'high' ? 'var(--error)' : risk.level === 'medium' ? 'var(--warning)' : 'var(--success)'}" stroke-width="12" stroke-linecap="round"
             stroke-dasharray="${percentage * 2.51} 251" />
-          <text x="100" y="85" text-anchor="middle" font-family="var(--font-mono)" font-size="36" font-weight="700" fill="var(--accent-gold)">${percentage}%</text>
+          <text x="100" y="85" text-anchor="middle" font-family="var(--font-mono)" font-size="36" font-weight="700" fill="var(--accent-vermillion)">${percentage}%</text>
         </svg>
       </div>
 
@@ -179,8 +179,8 @@ function showResult(): void {
     </div>
 
     ${whatIfMode ? `
-      <div style="margin-top: 16px; padding: 16px; background: var(--accent-gold-muted); border: 1px solid var(--border-accent); border-radius: 2px;">
-        <p style="font-size: 0.8125rem; color: var(--accent-gold);">
+      <div style="margin-top: 16px; padding: 16px; background: var(--accent-vermillion-muted); border: 1px solid var(--border-accent); border-radius: 2px;">
+        <p style="font-size: 0.8125rem; color: var(--accent-vermillion);">
           ${lang === 'en' ? 'What If mode is ON — drag the sliders to see how changes affect the prediction in real-time.' : '「もしも」モードがオンになっています — スライダーをドラッグすると予測がリアルタイムで変わります。'}
         </p>
       </div>

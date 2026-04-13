@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sendo-v1';
+const CACHE_NAME = 'sendo-v2';
 const PRECACHE_URLS = [
   '/',
   '/index.html',
@@ -22,13 +22,30 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: network-first for API, cache-first for assets
+// Fetch: network-first for HTML/API, stale-while-revalidate for hashed assets
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
   // Skip non-GET and API calls
   if (event.request.method !== 'GET' || url.pathname.startsWith('/api')) return;
 
+  // HTML pages: network-first (always get latest)
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('.html')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Hashed assets (JS/CSS with content hash): cache-first (hash changes on update)
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fetchPromise = fetch(event.request).then((response) => {

@@ -78,8 +78,12 @@ export function renderTimeline(): void {
     // Filter by category
     document.querySelectorAll('.filter-tabs .filter-tab').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-tabs .filter-tab').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.filter-tabs .filter-tab').forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
         btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
         const cat = (btn as HTMLElement).dataset.cat || 'all';
         const filtered = cat === 'all' ? events : events.filter(e => e.category === cat);
         renderEvents(filtered);

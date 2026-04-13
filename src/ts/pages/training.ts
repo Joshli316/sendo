@@ -354,11 +354,11 @@ export function renderTraining(): void {
       </div>
       <div style="margin-bottom: 32px;">
         <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px;">
-          <span style="font-family: var(--font-mono); color: var(--accent-gold); font-size: 1.5rem;">${completedCount}</span>
+          <span style="font-family: var(--font-mono); color: var(--accent-vermillion); font-size: 1.5rem;">${completedCount}</span>
           <span style="color: var(--text-secondary); font-size: 0.875rem;">/ 6 ${t('training.progress')}</span>
         </div>
         <div style="height: 4px; background: var(--border); border-radius: 2px; overflow: hidden;">
-          <div style="height: 100%; width: ${(completedCount / 6) * 100}%; background: var(--accent-gold); border-radius: 2px; transition: width 0.3s;"></div>
+          <div style="height: 100%; width: ${(completedCount / 6) * 100}%; background: var(--accent-vermillion); border-radius: 2px; transition: width 0.3s;"></div>
         </div>
       </div>
       <div class="module-grid">
@@ -400,7 +400,7 @@ export function renderTrainingModule(): void {
       ${module.sections.map((s, i) => `
         <div style="margin-bottom: 32px;">
           <h2 style="font-size: 1.25rem; cursor: pointer; display: flex; align-items: center; gap: 8px;" onclick="this.nextElementSibling.classList.toggle('hidden')">
-            <span style="color: var(--accent-gold); font-family: var(--font-mono);">${i + 1}.</span>
+            <span style="color: var(--accent-vermillion); font-family: var(--font-mono);">${i + 1}.</span>
             ${s.title[lang]}
             <span style="color: var(--text-tertiary); font-size: 0.875rem;">▼</span>
           </h2>

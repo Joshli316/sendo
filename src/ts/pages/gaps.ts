@@ -142,7 +142,7 @@ function showGapDetail(gap: Gap): void {
   const detail = document.getElementById('gap-detail')!;
 
   detail.innerHTML = `
-    <div class="card" style="border-color: var(--accent-gold);">
+    <div class="card" style="border-color: var(--accent-vermillion);">
       <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 16px;">
         <h2 style="font-size: 1.25rem;">${gap.title[lang as 'en' | 'jp']}</h2>
         <span class="gap-status ${gap.status}">${STATUS_LABELS[gap.status][lang as 'en' | 'jp']}</span>

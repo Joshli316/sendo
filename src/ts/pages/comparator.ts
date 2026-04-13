@@ -206,7 +206,7 @@ function renderPair(pair: SourcePair): void {
   const content = document.getElementById('comparator-content')!;
 
   content.innerHTML = `
-    <h2 style="margin-bottom: 24px;">${pair.event_name[lang as 'en' | 'jp']} <span style="font-family: var(--font-mono); color: var(--accent-gold); font-size: 1rem;">${pair.year}</span></h2>
+    <h2 style="margin-bottom: 24px;">${pair.event_name[lang as 'en' | 'jp']} <span style="font-family: var(--font-mono); color: var(--accent-vermillion); font-size: 1rem;">${pair.year}</span></h2>
 
     <div class="comparator-split">
       <div class="comparator-panel">
@@ -233,7 +233,7 @@ function renderPair(pair: SourcePair): void {
 
     <div style="margin-top: 32px;">
       <details>
-        <summary style="cursor: pointer; color: var(--accent-gold); font-weight: 500; padding: 12px 0;">
+        <summary style="cursor: pointer; color: var(--accent-vermillion); font-weight: 500; padding: 12px 0;">
           ${t('comparator.why')}
         </summary>
         <div style="padding: 16px 0; color: var(--text-secondary); line-height: 1.8;">

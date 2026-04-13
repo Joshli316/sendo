@@ -18,7 +18,7 @@ function getTools(): Tool[] {
     {
       title: t('personas.title'),
       desc: t('personas.subtitle'),
-      href: '#/tools/conversations',
+      href: '#/personas',
       icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
     },
     {
@@ -61,7 +61,7 @@ export function renderToolsHub(): void {
       <div class="offer-grid">
         ${tools.map(tool => `
           <a href="${tool.href}" class="card" style="text-decoration: none; display: block;">
-            <div style="color: var(--accent-gold); margin-bottom: 16px;">${tool.icon}</div>
+            <div style="color: var(--accent-vermillion); margin-bottom: 16px;">${tool.icon}</div>
             <h3 style="font-size: 1.125rem; margin-bottom: 8px;">${tool.title}</h3>
             <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5;">${tool.desc}</p>
           </a>
