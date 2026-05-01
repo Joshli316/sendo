@@ -2,13 +2,13 @@ import { setLang, getLang, t, SISTER_PROJECTS } from './i18n';
 
 type Route = {
   path: string;
-  render: () => void;
+  render: () => void | Promise<void>;
 };
 
 const routes: Route[] = [];
 let currentCleanup: (() => void) | null = null;
 
-export function registerRoute(path: string, render: () => void): void {
+export function registerRoute(path: string, render: () => void | Promise<void>): void {
   routes.push({ path, render });
 }
 

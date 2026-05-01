@@ -1,54 +1,46 @@
 import { registerRoute, initApp } from './main';
 import { renderHome } from './pages/home';
-import { renderResearchList, renderResearchDetail } from './pages/research';
-import { renderTimeline } from './pages/timeline';
-import { renderAskArchive } from './pages/ask-archive';
-import { renderToolsHub } from './pages/tools-hub';
-import { renderReturnee } from './pages/returnee';
-import { renderTraining, renderTrainingModule } from './pages/training';
-import { renderPersonasHub, renderPersonaChat } from './pages/personas';
-import { renderRetention } from './pages/retention';
-import { renderGaps } from './pages/gaps';
-import { renderComparator } from './pages/comparator';
-import { renderMap } from './pages/map';
-import { renderNetwork } from './pages/network';
-import { renderAbout } from './pages/about';
-import { renderHeritage } from './pages/heritage';
 import { initSearch } from './search';
 
-// Register all routes
+// Home renders eagerly so the landing page paints without an extra chunk fetch.
 registerRoute('/', renderHome);
 
+// Every other route lazy-loads its page module on first navigation. This keeps
+// the main bundle small; each page becomes its own code-split chunk via Vite.
+const lazy = <T extends Record<string, (...args: never[]) => void | Promise<void>>>(
+  loader: () => Promise<T>,
+  exportName: keyof T,
+) => () => loader().then(m => m[exportName]());
+
 // Research
-registerRoute('/research', renderResearchList);
-registerRoute('/research/timeline', renderTimeline);
-registerRoute('/research/map', renderMap);
-registerRoute('/research/network', renderNetwork);
-registerRoute('/research/gaps', renderGaps);
-registerRoute('/research/comparator', renderComparator);
-registerRoute('/research/ask', renderAskArchive);
-registerRoute('/research/:id', renderResearchDetail);
+registerRoute('/research',           lazy(() => import('./pages/research'),    'renderResearchList'));
+registerRoute('/research/timeline',  lazy(() => import('./pages/timeline'),    'renderTimeline'));
+registerRoute('/research/map',       lazy(() => import('./pages/map'),         'renderMap'));
+registerRoute('/research/network',   lazy(() => import('./pages/network'),     'renderNetwork'));
+registerRoute('/research/gaps',      lazy(() => import('./pages/gaps'),        'renderGaps'));
+registerRoute('/research/comparator',lazy(() => import('./pages/comparator'),  'renderComparator'));
+registerRoute('/research/ask',       lazy(() => import('./pages/ask-archive'), 'renderAskArchive'));
+registerRoute('/research/:id',       lazy(() => import('./pages/research'),    'renderResearchDetail'));
 
 // Tools
-registerRoute('/tools', renderToolsHub);
-registerRoute('/tools/ask', renderAskArchive);
-registerRoute('/tools/returnee', renderReturnee);
-registerRoute('/tools/training', renderTraining);
-registerRoute('/tools/training/:id', renderTrainingModule);
-registerRoute('/tools/retention', renderRetention);
-registerRoute('/tools/map', renderMap);
-registerRoute('/tools/network', renderNetwork);
+registerRoute('/tools',              lazy(() => import('./pages/tools-hub'),   'renderToolsHub'));
+registerRoute('/tools/ask',          lazy(() => import('./pages/ask-archive'), 'renderAskArchive'));
+registerRoute('/tools/returnee',     lazy(() => import('./pages/returnee'),    'renderReturnee'));
+registerRoute('/tools/training',     lazy(() => import('./pages/training'),    'renderTraining'));
+registerRoute('/tools/training/:id', lazy(() => import('./pages/training'),    'renderTrainingModule'));
+registerRoute('/tools/retention',    lazy(() => import('./pages/retention'),   'renderRetention'));
+registerRoute('/tools/map',          lazy(() => import('./pages/map'),         'renderMap'));
+registerRoute('/tools/network',      lazy(() => import('./pages/network'),     'renderNetwork'));
 
-// Heritage (net-new for Sendō)
-registerRoute('/heritage', renderHeritage);
+// Heritage
+registerRoute('/heritage',           lazy(() => import('./pages/heritage'),    'renderHeritage'));
 
-// Personas — top-level for Sendō (XuanYan nested them under tools)
-registerRoute('/personas', renderPersonasHub);
-registerRoute('/personas/:id', renderPersonaChat);
+// Personas
+registerRoute('/personas',           lazy(() => import('./pages/personas'),    'renderPersonasHub'));
+registerRoute('/personas/:id',       lazy(() => import('./pages/personas'),    'renderPersonaChat'));
 
 // About
-registerRoute('/about', renderAbout);
+registerRoute('/about',              lazy(() => import('./pages/about'),       'renderAbout'));
 
-// Init search and app
 initSearch();
 initApp();
