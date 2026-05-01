@@ -15,28 +15,30 @@ A bilingual (EN/JP), AI-powered research platform connecting 475 years of Christ
 src/
   index.html          — Homepage
   css/
-    main.css          — Tailwind + custom CSS vars
+    main.css          — Tailwind + custom CSS vars (global)
+    pages/
+      home.css        — Per-page styles (extracted from inline TS)
+      heritage.css    — Per-page styles
   ts/
-    main.ts           — App init, router, language toggle
-    i18n.ts           — Bilingual string management (EN/JP)
-    timeline.ts       — Animated timeline component
+    app.ts            — Route registration; home eager, all others lazy via dynamic imports
+    main.ts           — Router, language toggle, sister-menu
+    i18n.ts           — Bilingual string management (EN/JP) + SISTER_PROJECTS
+    data-loader.ts    — Lazy JSON loaders via Vite import.meta.glob
     search.ts         — Full-text search across reports
-    map.ts            — Animated spread map (Leaflet)
-    chat.ts           — Ask the Archive RAG interface
-  pages/
-    research/         — 12 research report pages
-    tools/            — Interactive tool pages (returnee, training, etc.)
-    heritage/         — Hidden Christian / Kakure Kirishitan experience
-    personas/         — AI conversation interfaces
-    about/            — FC Innovation Lab story
+    chat-ui.ts        — Shared chat shell for ask-archive + personas
+    pages/
+      home.ts, research.ts, timeline.ts, heritage.ts, personas.ts,
+      ask-archive.ts, training.ts, returnee.ts, retention.ts,
+      comparator.ts, map.ts, network.ts, gaps.ts, tools-hub.ts, about.ts
   data/
     reports/          — Report content as JSON (EN + JP)
     timeline.json     — Timeline events (1549-2026)
     personas/         — Persona corpora (Xavier, Verbeck, Uchimura, etc.)
     map-data.json     — Geographic + temporal church data
-  assets/
-    fonts/            — Noto Serif JP + Inter + JetBrains Mono
-    img/              — Sumi-e textures, vermillion accents, portraits
+functions/
+  api/
+    ask.ts            — Claude API proxy (rate-limited, size-capped)
+    health.ts         — /api/health for monitoring + env-var presence flag
 dist/                 — Built output
 worker/
   src/index.ts        — CF Worker for Claude API proxy
