@@ -432,7 +432,7 @@ export function renderTrainingModule(): void {
       <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border);">
         <h2 style="font-size: 1.25rem; margin-bottom: 16px;">${t('training.reflection')}</h2>
         <p style="font-size: 0.9375rem; color: var(--text-secondary); margin-bottom: 16px;">${module.reflection[lang]}</p>
-        <textarea class="chat-input" rows="4" placeholder="${lang === 'en' ? 'Write your reflection...' : '振り返りを書いてください...'}" id="reflection-text">${localStorage.getItem(`sendo-reflection-${id}`) || ''}</textarea>
+        <textarea class="chat-input" rows="4" placeholder="${lang === 'en' ? 'Write your reflection...' : '振り返りを書いてください...'}" id="reflection-text"></textarea>
         <button class="btn btn-ghost" style="margin-top: 8px;" id="save-reflection">${lang === 'en' ? 'Save' : '保存'}</button>
       </div>
     </div>
@@ -456,7 +456,11 @@ export function renderTrainingModule(): void {
     if (passed) saveProgress(id!, true);
   });
 
-  // Reflection saving
+  // Reflection: hydrate from localStorage as a value (not innerHTML), then save on click.
+  const reflectionEl = document.getElementById('reflection-text') as HTMLTextAreaElement | null;
+  if (reflectionEl) {
+    reflectionEl.value = localStorage.getItem(`sendo-reflection-${id}`) || '';
+  }
   document.getElementById('save-reflection')?.addEventListener('click', () => {
     const text = (document.getElementById('reflection-text') as HTMLTextAreaElement).value;
     localStorage.setItem(`sendo-reflection-${id}`, text);

@@ -104,11 +104,13 @@ export function initSearch(): void {
     debounceTimer = setTimeout(() => void performSearch(), 150);
   });
 
+  const modalEl = modal;
+  const resultsEl = resultsContainer;
   function navigateToResult(href: string): void {
     location.hash = href.replace('#', '');
-    modal.classList.remove('open');
+    modalEl.classList.remove('open');
     input.value = '';
-    resultsContainer!.innerHTML = '';
+    resultsEl.innerHTML = '';
   }
 
   // Keyboard navigation for search results

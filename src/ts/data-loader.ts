@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 // Report metadata — loaded lazily via Vite's import.meta.glob so missing
 // files don't break the build.
 
