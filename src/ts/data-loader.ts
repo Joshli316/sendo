@@ -22,13 +22,16 @@ function reportPathFor(id: string): string {
   return `../data/reports/${id}.json`;
 }
 
+function unwrapModule<T>(mod: { default?: T } | T): T {
+  return ((mod as { default?: T }).default ?? mod) as T;
+}
+
 export async function loadReport(id: string): Promise<Report | null> {
   if (reportCache[id]) return reportCache[id];
   const loader = reportModules[reportPathFor(id)];
   if (!loader) return null;
   try {
-    const mod = await loader();
-    const data = ((mod as any).default || mod) as Report;
+    const data = unwrapModule<Report>(await loader());
     reportCache[id] = data;
     return data;
   } catch {
@@ -49,23 +52,19 @@ export async function loadAllReports(): Promise<Report[]> {
   return allReportsCache;
 }
 
-// Legacy synchronous placeholder — kept so any old imports still type-check.
-export const reports: Report[] = [];
-
-// Timeline and map data — lazy imports
-export async function loadTimeline(): Promise<any> {
+// Timeline and map data — lazy imports. Consumers define the shape they expect
+// and cast the result; the data files are content-controlled, not user input.
+export async function loadTimeline(): Promise<unknown> {
   try {
-    const mod = await import('../data/timeline.json');
-    return (mod as any).default || mod;
+    return unwrapModule<unknown>(await import('../data/timeline.json'));
   } catch {
     return { events: [] };
   }
 }
 
-export async function loadMapData(): Promise<any> {
+export async function loadMapData(): Promise<unknown> {
   try {
-    const mod = await import('../data/map-data.json' as any);
-    return (mod as any).default || mod;
+    return unwrapModule<unknown>(await import('../data/map-data.json'));
   } catch {
     return [];
   }
@@ -97,8 +96,7 @@ export async function loadPersona(id: string): Promise<PersonaData | null> {
   const loader = personaModules[`../data/personas/${id}.json`];
   if (!loader) return null;
   try {
-    const mod = await loader();
-    const data = ((mod as any).default || mod) as PersonaData;
+    const data = unwrapModule<PersonaData>(await loader());
     personaCache[id] = data;
     return data;
   } catch {

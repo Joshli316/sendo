@@ -37,9 +37,8 @@ let timelineObserver: IntersectionObserver | null = null;
 
 async function loadTimeline(): Promise<TimelineEvent[]> {
   const data = await loadTimelineData();
-  // Handle both {events: [...]} and raw array formats
   if (Array.isArray(data)) return data as TimelineEvent[];
-  return (data.events || []) as TimelineEvent[];
+  return ((data as { events?: TimelineEvent[] }).events || []);
 }
 
 export function renderTimeline(): void {
