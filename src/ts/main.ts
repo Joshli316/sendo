@@ -1,4 +1,4 @@
-import { setLang, getLang, t } from './i18n';
+import { setLang, getLang, t, SISTER_PROJECTS } from './i18n';
 
 type Route = {
   path: string;
@@ -92,6 +92,62 @@ export function setCleanup(fn: () => void): void {
   currentCleanup = fn;
 }
 
+function renderSisterMenu(): void {
+  const panel = document.getElementById('sister-menu-panel');
+  if (!panel) return;
+  const main = SISTER_PROJECTS.find(p => p.isMain)!;
+  const others = SISTER_PROJECTS.filter(p => !p.isMain && p.key !== 'sendo');
+  panel.innerHTML = `
+    <a class="sister-menu__item sister-menu__item--main" href="${main.url}" target="_blank" rel="noopener" role="menuitem">
+      <span class="sister-menu__item-emoji" aria-hidden="true">${main.emoji}</span>
+      <span class="sister-menu__item-text">
+        <span class="sister-menu__item-tag">${main.tag} XuanYan</span>
+        <span class="sister-menu__item-main-label">${t('sisters.main_label')}</span>
+      </span>
+    </a>
+    ${others.map(p => `
+      <a class="sister-menu__item" href="${p.url}" target="_blank" rel="noopener" role="menuitem">
+        <span class="sister-menu__item-emoji" aria-hidden="true">${p.emoji}</span>
+        <span class="sister-menu__item-text">
+          <span class="sister-menu__item-tag">${p.tag}</span>
+          <span class="sister-menu__item-region">${t(p.regionKey)}</span>
+        </span>
+      </a>
+    `).join('')}
+  `;
+}
+
+function initSisterMenu(): void {
+  const wrap = document.getElementById('sister-menu');
+  const btn = document.getElementById('sister-menu-btn');
+  if (!wrap || !btn) return;
+
+  renderSisterMenu();
+
+  const close = () => {
+    wrap.classList.remove('is-open');
+    btn.setAttribute('aria-expanded', 'false');
+  };
+  const open = () => {
+    wrap.classList.add('is-open');
+    btn.setAttribute('aria-expanded', 'true');
+  };
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (wrap.classList.contains('is-open')) close();
+    else open();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!wrap.contains(e.target as Node)) close();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+}
+
 function initNav(): void {
   // Language toggle
   const langBtns = document.querySelectorAll('.lang-toggle button');
@@ -102,6 +158,8 @@ function initNav(): void {
       updateLangButtons();
     });
   });
+
+  initSisterMenu();
 
   // Mobile menu
   const mobileBtn = document.querySelector('.mobile-menu-btn');
@@ -161,6 +219,7 @@ function updateLangButtons(): void {
 // Listen for lang changes to re-render current route
 window.addEventListener('langchange', () => {
   updateLangButtons();
+  renderSisterMenu();
   handleRoute();
 });
 

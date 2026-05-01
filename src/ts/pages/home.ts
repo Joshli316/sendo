@@ -1,4 +1,32 @@
-import { t } from '../i18n';
+import { t, SISTER_PROJECTS } from '../i18n';
+
+function renderFamilyBlock(): string {
+  const main = SISTER_PROJECTS.find(p => p.isMain)!;
+  const others = SISTER_PROJECTS.filter(p => !p.isMain && p.key !== 'sendo');
+  return `
+    <div class="footer-family">
+      <div class="footer-family__title" data-i18n="footer.family_title">${t('footer.family_title')}</div>
+      <div class="footer-family__row">
+        <a class="footer-family__main" href="${main.url}" target="_blank" rel="noopener">
+          <span aria-hidden="true">${main.emoji}</span>
+          <span class="footer-family__main-tag">${main.tag}</span>
+          <span>XuanYan</span>
+          <span class="footer-family__main-badge" data-i18n="footer.family_main">${t('footer.family_main')}</span>
+        </a>
+        <span class="footer-family__current" aria-current="page">
+          <span aria-hidden="true">🇯🇵</span>
+          <span>宣道 Sendō</span>
+        </span>
+        ${others.map(p => `
+          <a class="footer-family__sister" href="${p.url}" target="_blank" rel="noopener">
+            <span aria-hidden="true">${p.emoji}</span>
+            <span>${p.tag}</span>
+          </a>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
 
 export function renderHome(): void {
   const app = document.getElementById('app')!;
@@ -81,6 +109,7 @@ export function renderHome(): void {
     </section>
 
     <footer class="sendo-footer">
+      ${renderFamilyBlock()}
       <div class="sendo-footer-inner">
         <div class="sendo-footer-brand">
           <span class="footer-kanji">宣道</span>
